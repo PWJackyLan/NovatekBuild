@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LIBRARY>
+	<GPIO_DIR>
+		<GPIO_DIR_ID_CFG>
+			<GPIO_DIR_ID name="INPUT" value="0" />
+			<GPIO_DIR_ID name="OUTPUT" value="1" />
+		</GPIO_DIR_ID_CFG>
+	</GPIO_DIR>
+	<GPIO_PIN>	
+		<C_GPIO_GRUP name="C_GPIO_BASE" value="1">
+			<GPIO_ID name="C_GPIO_0" value="0" Remark="C_GPIO[0]" />
+			<GPIO_ID name="C_GPIO_1" value="1" Remark="C_GPIO[1]" />
+			<GPIO_ID name="C_GPIO_2" value="2" Remark="C_GPIO[2]" />
+			<GPIO_ID name="C_GPIO_3" value="3" Remark="C_GPIO[3]" />
+			<GPIO_ID name="C_GPIO_4" value="4" Remark="C_GPIO[4]" />
+			<GPIO_ID name="C_GPIO_5" value="5" Remark="C_GPIO[5]" />
+			<GPIO_ID name="C_GPIO_6" value="6" Remark="C_GPIO[6]" />
+			<GPIO_ID name="C_GPIO_7" value="7" Remark="C_GPIO[7]" />
+			<GPIO_ID name="C_GPIO_8" value="8" Remark="C_GPIO[8]" />
+			<GPIO_ID name="C_GPIO_9" value="9" Remark="C_GPIO[9]" />
+			<GPIO_ID name="C_GPIO_10" value="10" Remark="C_GPIO[10]" />
+			<GPIO_ID name="C_GPIO_11" value="11" Remark="C_GPIO[11]" />
+			<GPIO_ID name="C_GPIO_12" value="12" Remark="C_GPIO[12]" />
+			<GPIO_ID name="C_GPIO_13" value="13" Remark="C_GPIO[13]" />
+			<GPIO_ID name="C_GPIO_14" value="14" Remark="C_GPIO[14]" />
+			<GPIO_ID name="C_GPIO_15" value="15" Remark="C_GPIO[15]" />
+			<GPIO_ID name="C_GPIO_16" value="16" Remark="C_GPIO[16]" />
+			<GPIO_ID name="C_GPIO_17" value="17" Remark="C_GPIO[17]" />
+			<GPIO_ID name="C_GPIO_18" value="18" Remark="C_GPIO[18]" />
+			<GPIO_ID name="C_GPIO_19" value="19" Remark="C_GPIO[19]" />
+			<GPIO_ID name="C_GPIO_20" value="20" Remark="C_GPIO[20]" />
+			<GPIO_ID name="C_GPIO_21" value="21" Remark="C_GPIO[21]" />
+			<GPIO_ID name="C_GPIO_22" value="22" Remark="C_GPIO[22]" />
+			<GPIO_ID name="C_GPIO_23" value="23" Remark="C_GPIO[23]" />
+			<GPIO_ID name="C_GPIO_24" value="24" Remark="C_GPIO[24]" />
+			<GPIO_ID name="C_GPIO_25" value="25" Remark="C_GPIO[25]" />
+			<GPIO_ID name="C_GPIO_26" value="26" Remark="C_GPIO[26]" />
+			<GPIO_ID name="C_GPIO_27" value="27" Remark="C_GPIO[27]" />
+			<GPIO_ID name="C_GPIO_28" value="28" Remark="C_GPIO[28]" />
+			<GPIO_ID name="C_GPIO_29" value="29" Remark="C_GPIO[29]" />
+			<GPIO_ID name="C_GPIO_30" value="30" Remark="C_GPIO[30]" />
+			<GPIO_ID name="C_GPIO_31" value="31" Remark="C_GPIO[31]" />
+			<GPIO_ID name="C_GPIO_32" value="32" Remark="C_GPIO[32]" />
+			<GPIO_ID name="C_GPIO_33" value="33" Remark="C_GPIO[33]" />
+		</C_GPIO_GRUP>
+		<P_GPIO_GRUP name="P_GPIO_BASE" value="2">		
+			<GPIO_ID name="P_GPIO_0" value="0" Remark="P_GPIO[0]" />
+			<GPIO_ID name="P_GPIO_1" value="1" Remark="P_GPIO[1]" />
+			<GPIO_ID name="P_GPIO_2" value="2" Remark="P_GPIO[2]" />
+			<GPIO_ID name="P_GPIO_3" value="3" Remark="P_GPIO[3]" />
+			<GPIO_ID name="P_GPIO_4" value="4" Remark="P_GPIO[4]" />
+			<GPIO_ID name="P_GPIO_5" value="5" Remark="P_GPIO[5]" />
+			<GPIO_ID name="P_GPIO_6" value="6" Remark="P_GPIO[6]" />
+			<GPIO_ID name="P_GPIO_7" value="7" Remark="P_GPIO[7]" />
+			<GPIO_ID name="P_GPIO_8" value="8" Remark="P_GPIO[8]" />
+			<GPIO_ID name="P_GPIO_9" value="9" Remark="P_GPIO[9]" />
+			<GPIO_ID name="P_GPIO_10" value="10" Remark="P_GPIO[10]" />
+			<GPIO_ID name="P_GPIO_11" value="11" Remark="P_GPIO[11]" />
+			<GPIO_ID name="P_GPIO_12" value="12" Remark="P_GPIO[12]" />
+			<GPIO_ID name="P_GPIO_13" value="13" Remark="P_GPIO[13]" />
+			<GPIO_ID name="P_GPIO_14" value="14" Remark="P_GPIO[14]" />
+			<GPIO_ID name="P_GPIO_15" value="15" Remark="P_GPIO[15]" />
+			<GPIO_ID name="P_GPIO_16" value="16" Remark="P_GPIO[16]" />
+			<GPIO_ID name="P_GPIO_17" value="17" Remark="P_GPIO[17]" />
+			<GPIO_ID name="P_GPIO_18" value="18" Remark="P_GPIO[18]" />
+			<GPIO_ID name="P_GPIO_19" value="19" Remark="P_GPIO[19]" />
+			<GPIO_ID name="P_GPIO_20" value="20" Remark="P_GPIO[20]" />
+			<GPIO_ID name="P_GPIO_21" value="21" Remark="P_GPIO[21]" />
+			<GPIO_ID name="P_GPIO_22" value="22" Remark="P_GPIO[22]" />
+			<GPIO_ID name="P_GPIO_23" value="23" Remark="P_GPIO[23]" />
+			<GPIO_ID name="P_GPIO_24" value="24" Remark="P_GPIO[24]" />
+			<GPIO_ID name="P_GPIO_25" value="25" Remark="P_GPIO[25]" />
+			<GPIO_ID name="P_GPIO_26" value="26" Remark="P_GPIO[26]" />
+			<GPIO_ID name="P_GPIO_27" value="27" Remark="P_GPIO[27]" />
+			<GPIO_ID name="P_GPIO_28" value="28" Remark="P_GPIO[28]" />
+			<GPIO_ID name="P_GPIO_29" value="29" Remark="P_GPIO[29]" />
+			<GPIO_ID name="P_GPIO_30" value="30" Remark="P_GPIO[30]" />
+			<GPIO_ID name="P_GPIO_31" value="31" Remark="P_GPIO[31]" />
+			<GPIO_ID name="P_GPIO_32" value="32" Remark="P_GPIO[32]" />
+			<GPIO_ID name="P_GPIO_33" value="33" Remark="P_GPIO[33]" />
+			<GPIO_ID name="P_GPIO_34" value="34" Remark="P_GPIO[34]" />
+			<GPIO_ID name="P_GPIO_35" value="35" Remark="P_GPIO[35]" />
+			<GPIO_ID name="P_GPIO_36" value="36" Remark="P_GPIO[36]" />
+			<GPIO_ID name="P_GPIO_37" value="37" Remark="P_GPIO[37]" />
+			<GPIO_ID name="P_GPIO_38" value="38" Remark="P_GPIO[38]" />
+			<GPIO_ID name="P_GPIO_39" value="39" Remark="P_GPIO[39]" />
+			<GPIO_ID name="P_GPIO_40" value="40" Remark="P_GPIO[40]" />
+			<GPIO_ID name="P_GPIO_41" value="41" Remark="P_GPIO[41]" />
+			<GPIO_ID name="P_GPIO_42" value="42" Remark="P_GPIO[42]" />
+			<GPIO_ID name="P_GPIO_43" value="43" Remark="P_GPIO[43]" />
+			<GPIO_ID name="P_GPIO_44" value="44" Remark="P_GPIO[44]" />
+			<GPIO_ID name="P_GPIO_45" value="45" Remark="P_GPIO[45]" />
+			<GPIO_ID name="P_GPIO_46" value="46" Remark="P_GPIO[46]" />
+			<GPIO_ID name="P_GPIO_47" value="47" Remark="P_GPIO[47]" />
+			<GPIO_ID name="P_GPIO_48" value="48" Remark="P_GPIO[48]" />
+			<GPIO_ID name="P_GPIO_49" value="49" Remark="P_GPIO[49]" />
+			<GPIO_ID name="P_GPIO_50" value="50" Remark="P_GPIO[50]" />
+			<GPIO_ID name="P_GPIO_51" value="51" Remark="P_GPIO[51]" />
+			<GPIO_ID name="P_GPIO_52" value="52" Remark="P_GPIO[52]" />
+			<GPIO_ID name="P_GPIO_53" value="53" Remark="P_GPIO[53]" />
+			<GPIO_ID name="P_GPIO_54" value="54" Remark="P_GPIO[54]" />
+			<GPIO_ID name="P_GPIO_55" value="55" Remark="P_GPIO[55]" />
+			<GPIO_ID name="P_GPIO_56" value="56" Remark="P_GPIO[56]" />
+			<GPIO_ID name="P_GPIO_57" value="57" Remark="P_GPIO[57]" />
+			<GPIO_ID name="P_GPIO_58" value="58" Remark="P_GPIO[58]" />
+			<GPIO_ID name="P_GPIO_59" value="59" Remark="P_GPIO[59]" />
+			<GPIO_ID name="P_GPIO_60" value="60" Remark="P_GPIO[60]" />
+			<GPIO_ID name="P_GPIO_61" value="61" Remark="P_GPIO[61]" />
+		</P_GPIO_GRUP>
+		<S_GPIO_GRUP name="S_GPIO_BASE" value="3">	
+			<GPIO_ID name="S_GPIO_0" value="0" Remark="S_GPI[0]" />
+			<GPIO_ID name="S_GPIO_1" value="1" Remark="S_GPI[1]" />
+			<GPIO_ID name="S_GPIO_2" value="2" Remark="S_GPI[2]" />
+			<GPIO_ID name="S_GPIO_3" value="3" Remark="S_GPI[3]" />
+			<GPIO_ID name="S_GPIO_4" value="4" Remark="S_GPI[4]" />
+			<GPIO_ID name="S_GPIO_5" value="5" Remark="S_GPI[5]" />
+			<GPIO_ID name="S_GPIO_6" value="6" Remark="S_GPI[6]" />
+			<GPIO_ID name="S_GPIO_7" value="7" Remark="S_GPI[7]" />
+			<GPIO_ID name="S_GPIO_8" value="8" Remark="S_GPI[8]" />
+			<GPIO_ID name="S_GPIO_9" value="9" Remark="S_GPI[9]" />
+			<GPIO_ID name="S_GPIO_10" value="10" Remark="S_GPI[10]" />
+			<GPIO_ID name="S_GPIO_11" value="11" Remark="S_GPI[11]" />
+			<GPIO_ID name="S_GPIO_12" value="12" Remark="S_GPI[12]" />
+			<GPIO_ID name="S_GPIO_13" value="13" Remark="S_GPI[13]" />
+			<GPIO_ID name="S_GPIO_14" value="14" Remark="S_GPI[14]" />
+			<GPIO_ID name="S_GPIO_15" value="15" Remark="S_GPI[15]" />
+			<GPIO_ID name="S_GPIO_16" value="16" Remark="S_GPI[16]" />
+			<GPIO_ID name="S_GPIO_17" value="17" Remark="S_GPI[17]" />
+			<GPIO_ID name="S_GPIO_18" value="18" Remark="S_GPI[18]" />
+			<GPIO_ID name="S_GPIO_19" value="19" Remark="S_GPI[19]" />
+			<GPIO_ID name="S_GPIO_20" value="20" Remark="S_GPI[20]" />
+			<GPIO_ID name="S_GPIO_21" value="21" Remark="S_GPI[21]" />
+			<GPIO_ID name="S_GPIO_22" value="22" Remark="S_GPI[22]" />
+			<GPIO_ID name="S_GPIO_23" value="23" Remark="S_GPI[23]" />
+			<GPIO_ID name="S_GPIO_24" value="24" Remark="S_GPIO[24]" />
+			<GPIO_ID name="S_GPIO_25" value="25" Remark="S_GPIO[25]" />
+			<GPIO_ID name="S_GPIO_26" value="26" Remark="S_GPIO[26]" />
+			<GPIO_ID name="S_GPIO_27" value="27" Remark="S_GPIO[27]" />
+			<GPIO_ID name="S_GPIO_28" value="28" Remark="S_GPIO[28]" />
+			<GPIO_ID name="S_GPIO_29" value="29" Remark="S_GPIO[29]" />
+		</S_GPIO_GRUP>
+		<L_GPIO_GRUP name="L_GPIO_BASE" value="4">	
+			<GPIO_ID name="L_GPIO_0" value="0" Remark="L_GPIO[0]" />
+			<GPIO_ID name="L_GPIO_1" value="1" Remark="L_GPIO[1]" />
+			<GPIO_ID name="L_GPIO_2" value="2" Remark="L_GPIO[2]" />
+			<GPIO_ID name="L_GPIO_3" value="3" Remark="L_GPIO[3]" />
+			<GPIO_ID name="L_GPIO_4" value="4" Remark="L_GPIO[4]" />
+			<GPIO_ID name="L_GPIO_5" value="5" Remark="L_GPIO[5]" />
+			<GPIO_ID name="L_GPIO_6" value="6" Remark="L_GPIO[6]" />
+			<GPIO_ID name="L_GPIO_7" value="7" Remark="L_GPIO[7]" />
+			<GPIO_ID name="L_GPIO_8" value="8" Remark="L_GPIO[8]" />
+			<GPIO_ID name="L_GPIO_9" value="9" Remark="L_GPIO[9]" />
+			<GPIO_ID name="L_GPIO_10" value="10" Remark="L_GPIO[10]" />
+			<GPIO_ID name="L_GPIO_11" value="11" Remark="L_GPIO[11]" />
+			<GPIO_ID name="L_GPIO_12" value="12" Remark="L_GPIO[12]" />
+			<GPIO_ID name="L_GPIO_13" value="13" Remark="L_GPIO[13]" />
+			<GPIO_ID name="L_GPIO_14" value="14" Remark="L_GPIO[14]" />
+			<GPIO_ID name="L_GPIO_15" value="15" Remark="L_GPIO[15]" />
+			<GPIO_ID name="L_GPIO_16" value="16" Remark="L_GPIO[16]" />
+			<GPIO_ID name="L_GPIO_17" value="17" Remark="L_GPIO[17]" />
+			<GPIO_ID name="L_GPIO_18" value="18" Remark="L_GPIO[18]" />
+			<GPIO_ID name="L_GPIO_19" value="19" Remark="L_GPIO[19]" />
+			<GPIO_ID name="L_GPIO_20" value="20" Remark="L_GPIO[20]" />
+			<GPIO_ID name="L_GPIO_21" value="21" Remark="L_GPIO[21]" />
+			<GPIO_ID name="L_GPIO_22" value="22" Remark="L_GPIO[22]" />
+			<GPIO_ID name="L_GPIO_23" value="23" Remark="L_GPIO[23]" />
+			<GPIO_ID name="L_GPIO_24" value="24" Remark="L_GPIO[24]" />
+			<GPIO_ID name="L_GPIO_25" value="25" Remark="L_GPIO[25]" />
+			<GPIO_ID name="L_GPIO_26" value="26" Remark="L_GPIO[26]" />
+			<GPIO_ID name="L_GPIO_27" value="27" Remark="L_GPIO[27]" />
+			<GPIO_ID name="L_GPIO_28" value="28" Remark="L_GPIO[28]" />
+			<GPIO_ID name="L_GPIO_29" value="29" Remark="L_GPIO[29]" />
+			<GPIO_ID name="L_GPIO_30" value="30" Remark="L_GPIO[30]" />
+		</L_GPIO_GRUP>
+		<D_GPIO_GRUP name="D_GPIO_BASE" value="5">																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					
+			<GPIO_ID name="D_GPIO_0" value="0" Remark="DGPIO[0]" />
+			<GPIO_ID name="D_GPIO_1" value="1" Remark="DGPIO[1]" />
+			<GPIO_ID name="D_GPIO_2" value="2" Remark="DGPIO[2]" />
+			<GPIO_ID name="D_GPIO_3" value="3" Remark="DGPIO[3]" />
+			<GPIO_ID name="D_GPIO_4" value="4" Remark="SN_DGPIO[4]" />
+			<GPIO_ID name="D_GPIO_5" value="5" Remark="SN_DGPIO[5]" />
+			<GPIO_ID name="D_GPIO_6" value="6" Remark="SN_DGPIO[6]" />
+			<GPIO_ID name="D_GPIO_7" value="7" Remark="SN_DGPIO[7]" />
+			<GPIO_ID name="D_GPIO_8" value="8" Remark="D_GPIO[8]" />			
+			<GPIO_ID name="GPIO_NULL" value="10" Remark="D_GPIO[10]" />
+			<GPIO_ID name="D_GPIO_11" value="11" Remark="D_GPIO[11]" />
+			<GPIO_ID name="D_GPIO_12" value="12" Remark="D_GPIO[12]" />
+			<GPIO_ID name="D_GPIO_16" value="16" Remark="D_GPIO[16]" />
+			<GPIO_ID name="D_GPIO_17" value="17" Remark="D_GPIO[17]" />
+		</D_GPIO_GRUP>
+	</GPIO_PIN>
+	<PAD_DIR>
+		<PAD_DIR_CFG>
+			<PAD_DIR_ID name="LOW/NONE" value="0" />
+			<PAD_DIR_ID name="HI/PULL_DOWN" value="1" />
+			<PAD_DIR_ID name="PAD_PULLUP" value="2" Remark="pull up" />
+			<PAD_DIR_ID name="PAD_KEEPER" value="3" Remark="keeper" />
+		</PAD_DIR_CFG>
+	</PAD_DIR>
+	
+</LIBRARY>

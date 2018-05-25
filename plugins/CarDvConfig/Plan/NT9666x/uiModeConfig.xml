@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<!--Software_version  version="1.1"/--> 
+<LIBRARY>
+	<Setup>
+		<DUAL_DIAP id="输出设备" IndexInfo="CFG_OUTPUT_DEVICE">
+			<OUTPU_LCD name="LCD" value="0"/>
+			<OUTPU_TV  name="TV" value="1"/>			
+			<DEFAULT  name="AUTO" value="2"/>
+			<OUTPU_DUAL  name="DUAL" value="2"/>
+			<OUTPU_HDMI  name="HDMI" value="4"/>
+		</DUAL_DIAP>
+		<DISPLAY_SCALE id="显示比例" IndexInfo="CFG_DISPLAY_SCALE">
+			<DEFAULT name="16:9" value="0" />
+			<SENSOR name="4:3"  value="1" />
+		</DISPLAY_SCALE>
+		<AUTO_RECORDING id="开机自动录像" IndexInfo="CFG_WIFI_AUTO_RECORDING">
+			<RECODOFF name="关" value="0"/>
+			<DEFAULT name="ACC Plug" value="1" Remark="只有ACC插入情况下才录像"/>			
+			<ALWAYS name="ALWAYS" value="2" Remark="开机无条件开始录像" />
+		</AUTO_RECORDING >
+		<DELAY_POWEROFF id="延时关机" IndexInfo="CFG_DELAY_POWEROFF">
+			<DEFAULT name="默认" value="0" Remark="默认ACC掉电15秒关机"/>
+			<DELAY_1S name="1秒" value="1" />			
+			<DELAY_5S name="5秒" value="5" />
+			<DELAY_10S name="10秒" value="10" />
+			<DELAY_20S name="20秒" value="20" />
+			<DELAY_30S name="30秒" value="30" />
+			<DELAY_60S name="1分钟" value="60" />
+			<DELAY_60S name="ACC+停车60秒" value="15420" Remark="ACC掉电与停车监控触发开机倒计时60秒关机"/>
+		</DELAY_POWEROFF >
+		<COMMON_LED id="COMMON LED" IndexInfo="CFG_COMMON_LED">			
+			<DEFAULT name="OFF" value="0" Remark="无状态"/>
+		</COMMON_LED>
+		<FILEFORMAT id="文件类型" IndexInfo="CFG_FILEFORMAT">			
+			<FILE_MOV name="MOV" value="1" Remark="MOV file format"/>
+			<FILE_AVI name="AVI" value="2" Remark="AVI file format"/>
+			<FILE_MP4 name="MP4" value="4" Remark="MP4 file format"/>
+			<DEFAULT name="TS" value="8" Remark="TS file format"/>
+		</FILEFORMAT>
+		<WIFI_CHANNEL id="WiFi信道" IndexInfo="CFG_WIFI_CHANNEL">	
+			<DEFAULT name="自动" value="0" />
+			<CH_1 name="1" value="1" />
+			<CH_6 name="6" value="6" />
+			<CH_11 name="11" value="11" />
+			<CH_36 name="36" value="36" />
+			<CH_40 name="40" value="40" />
+			<CH_44 name="44" value="44" />
+			<CH_48 name="48" value="48" />
+			<CH_149 name="149" value="149" />
+			<CH_153 name="153" value="153" />
+			<CH_161 name="161" value="161" />
+			<CH_165 name="165" value="165" />
+			<CH_5G name="5G自动-中国" value="511" Remark="Bit.9=1"/>
+			<CH_5G name="5G自动-美国" value="767" Remark="Bit.10=1"/>
+		</WIFI_CHANNEL>
+		<USB_MODE id="USB模式" IndexInfo="CFG_USB_MODE">
+			<DEFAULT name="MSDC" value="0"/>
+			<PCC_MODE name="PCC" value="1"/>
+			<PTP_MODE name="PTP" value="2"/>
+		</USB_MODE>
+		<PIPVIEW id="画中画模式" IndexInfo="CFG_PIPVIEW_SYTLE">
+			<DEFAULT 		name="FRONT" 	value="0"	Remark="单前路全屏"/>
+			<BEHIND_MODE 	name="BEHIND" 	value="1"	Remark="单后路全屏"/>
+			<BOTH_MODE 		name="BOTH" 	value="2"	Remark="画中画前主后辅"/>
+			<BOTH2_MODE 	name="BOTH2" 	value="3"	Remark="画中画前辅后主"/>
+			<LR_16_9 		name="LR_16_9" 	value="4"	Remark="半屏显示 双16:9"/>
+			<LR_FULL 		name="LR_FULL" 	value="5"	Remark="半屏显示 双铺满"/>
+			<LR_FRONT 		name="LR_FRONT_FULL" value="6"	Remark="前路全屏显示 铺满"/>
+			<LR_BEHIND 		name="LR_BEHIND_FULL" value="7" Remark="后路全屏显示 铺满"/>
+		</PIPVIEW>
+		<PIPVIEW_LR id="全屏铺满模式" IndexInfo="CFG_PIP_VIEW_LR">
+			<DEFAULT 	name="DISABLE" 	value="0" Remark="适用小屏,画中画显示"/>
+			<PIP_LR 	name="ENABLE" 	value="1" Remark="适用大屏,全屏铺满显示"/>
+		</PIPVIEW_LR>
+		<SHOW_SENSOR2  id="自动后路显示" IndexInfo="CFG_AUTO_SHOW_SENSOR2">
+			<DEFAULT 		name="关闭" 	value="0"/>
+			<DELAY_30Sec 	name="30秒" 	value="30" Remark="30秒无操作自动切换到后路显示"/>
+			<DELAY_60Sec 	name="60秒" 	value="60" Remark="60秒无操作自动切换到后路显示"/>
+		</SHOW_SENSOR2>
+		<ROTATE_DEGREE id="显示旋转度" IndexInfo="CFG_ROTATE_DEGREE" >
+			<ROTATE_0 		name="0度" 		value="0"  Remark="No rotation"/>
+			<ROTATE_90 		name="90度" 	value="1" Remark="rotate 90 degree"/>
+			<ROTATE_90_V 	name="90 VERT" 	value="2" Remark="rotate 90 degree + vertical flip"/>
+			<ROTATE_180 	name="180度" 	value="3" Remark="rotate 180 degree"/>
+			<DEFAULT 		name="270度" 	value="4" Remark="rotate 270 degree"/>
+			<ROTATE_270_V 	name="270 VERT" value="5" Remark="rotate 270 degree  + vertical flip"/>
+			<ROTATE_HORZ 	name="HORZ" 	value="6" Remark="horzional flip"/>
+			<ROTATE_VERT 	name="VERT" 	value="7" Remark="vertical flip"/>
+		</ROTATE_DEGREE>
+		<SENSOR_DIR1  id="Sensor1方向" IndexInfo="CFG_SENSOR1_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>
+		</SENSOR_DIR1>
+		<SENSOR_DIR2  id="Sensor2方向" IndexInfo="CFG_SENSOR2_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>		
+		</SENSOR_DIR2>
+		<SENSOR_DIR3  id="Sensor3方向" IndexInfo="CFG_SENSOR3_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>		
+		</SENSOR_DIR3>
+		<SENSOR_DIR4  id="Sensor4方向" IndexInfo="CFG_SENSOR4_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>		
+		</SENSOR_DIR4>
+		<POWER_MCU  id="电源管理MCU" IndexInfo="CFG_POWER_MCU">
+			<MCU_OFF 	name="禁用" 	value="0" />
+			<MCU_UART1 	name="UART1" 	value="1" />
+			<MCU_UART2 	name="UART2" 	value="2" />
+			<MCU_UART3 	name="UART3" 	value="3" />
+			<DEFAULT 	name="UART4" 	value="4" />	
+			<MCU_IO		name="IO通知关机" value="18672" Remark="使用P_GPIO8 通知正常关机"/>
+		</POWER_MCU>
+		<ACC_STATUS id="ACC触发开机" IndexInfo="CFG_ACC_CHANNEL">
+			<DEFAULT 	name="默认" 	value="0" />
+			<ACC_PSW3 	name="PSW3" 	value="2" />
+			<ACC_PSW3_IO12 	name="PSW3+IO12" 	value="19586" Remark="PSW3+Bit_8+IO12"/>	
+			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
+			<ACC_PSW4 	name="PSW4" 	value="3" />
+		</ACC_STATUS>
+		<SOUND_SPK id="音频输出" IndexInfo="CFG_SOUND_SPK" >
+			<DEFAULT 	name="默认" 		value="0" />
+			<EXTSPK 	name="外部功放" 	value="16641" Remark="PWR(PGPIO1)高8位 | ENABLE" />
+		</SOUND_SPK>
+	</Setup>	
+</LIBRARY>
