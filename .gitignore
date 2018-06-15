@@ -1,7 +1,7 @@
 Runlog.txt
 debuglog.txt
+*log.txt
 *.rar
 *.zip
 *.7z
-
-
+/plugins/PhotoRawTrans/InitDir.ini

@@ -119,6 +119,26 @@
 			<DEFAULT 	name="UART4" 	value="4" />	
 			<MCU_IO		name="IO通知关机" value="18672" Remark="使用P_GPIO8 通知正常关机"/>
 		</POWER_MCU>
+		<UART1_FUNC id="串口1功能" IndexInfo="CFG_UART1_FUNCTION" >
+			<UART1_NONE    name="禁用" value="0" />
+			<UART1_GPS     name="GPS" value="1" />
+			<UART1_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART1_FUNC>
+		<UART2_FUNC id="串口2功能" IndexInfo="CFG_UART2_FUNCTION" >
+			<UART2_NONE    name="禁用" value="0" />
+			<UART2_GPS     name="GPS" value="1" />
+			<UART2_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART2_FUNC>
+		<UART3_FUNC id="串口3功能" IndexInfo="CFG_UART3_FUNCTION" >
+			<UART3_NONE    name="禁用" value="0" />
+			<UART3_GPS     name="GPS" value="1" />
+			<UART3_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART3_FUNC>
+		<UART4_FUNC id="串口4功能" IndexInfo="CFG_UART4_FUNCTION" >
+			<UART4_NONE    name="禁用" value="0" />
+			<UART4_GPS     name="GPS" value="1" />
+			<UART4_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART4_FUNC>
 		<ACC_STATUS id="ACC触发开机" IndexInfo="CFG_ACC_CHANNEL">
 			<DEFAULT 	name="默认" 	value="0" />
 			<ACC_PSW3 	name="PSW3" 	value="2" />
