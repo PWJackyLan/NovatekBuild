@@ -5,112 +5,74 @@
 		<APP_MOVIE_FUNC>
 			<MOVIE_FUNC name="Default" value="0"/>
 			<MOVIE_FUNC name="无功能" value="254"/>
-			<MOVIE_FUNC name="菜单" value="3"/>				
-			<MOVIE_FUNC name="UP" value="4"/>	
-			<MOVIE_FUNC name="Down" value="5"/>	
-			<MOVIE_FUNC name="锁定文件" value="6"/>	
-			<MOVIE_FUNC name="Mode" value="7"/>	
-			<MOVIE_FUNC name="SHUTTER2" value="10"/>	
-			<MOVIE_FUNC name="放大" value="11"/>		
-			<MOVIE_FUNC name="缩小" value="12"/>
-			<MOVIE_FUNC name="回放模式" value="13"/>	
+			<MOVIE_FUNC name="UP" value="4"/>
+			<MOVIE_FUNC name="Down" value="5"/>
+			<MOVIE_FUNC name="Menu" value="6"/>
+			<MOVIE_FUNC name="Mode" value="7"/>
+			<MOVIE_FUNC name="Enter" value="8"/>
+			<MOVIE_FUNC name="Shutter2" value="9"/>
+			<MOVIE_FUNC name="锁定文件" value="10"/>
+			<MOVIE_FUNC name="Left" value="11"/>
+			<MOVIE_FUNC name="Right" value="12"/>
+			<MOVIE_FUNC name="放大" value="13"/>
+			<MOVIE_FUNC name="缩小" value="14"/>
+			<MOVIE_FUNC name="回放模式" value="15"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
-			<MOVIE_FUNC name="录像控制"  value="32"/>
-			<MOVIE_FUNC name="镜头切换"  value="35"/>			
-			<MOVIE_FUNC name="补光灯"    value="36"/>
-			<MOVIE_FUNC name="录音开关"  value="37"/>
-			<MOVIE_FUNC name="缩时录像"  value="38"/>
-			<MOVIE_FUNC name="快捷键3"   value="39"/>			
-			<MOVIE_FUNC name="小视频"    value="40"/>
-			<MOVIE_FUNC name="Wifi开关"  value="41"/>
-			<MOVIE_FUNC name="快捷键6"   value="42"/>
-			<MOVIE_FUNC name="快捷键7"   value="43"/>
-			<MOVIE_FUNC name="快捷键8"   value="44"/>
-			<MOVIE_FUNC name="移动帧测"  value="45"/>
-			<MOVIE_FUNC name="恢复默认"  value="46"/>
-			<MOVIE_FUNC name="UserKey"   value="47"/>
-			<MOVIE_FUNC name="停车监控"  value="48"/>
-			<MOVIE_FUNC name="屏幕保护"  value="49"/>
-			<MOVIE_FUNC name="一键抓拍"  value="50"/>
+			<MOVIE_FUNC name="录音开关"  value="16"/>
+			<MOVIE_FUNC name="录影开关"  value="17"/>
+			<MOVIE_FUNC name="关屏"  value="18"/>
 		</APP_MOVIE_FUNC>
 		<APP_PHOTO_FUNC>
 			<PHOTO_FUNC name="Default" value="0"/>
 			<MOVIE_FUNC name="无功能" value="254"/>
-			<PHOTO_FUNC name="UP" value="3"/>
-			<PHOTO_FUNC name="Down" value="4"/>
-			<PHOTO_FUNC name="LEFT" value="5"/>
-			<PHOTO_FUNC name="RIGHT" value="6"/>
-			<PHOTO_FUNC name="Shutter1" value="7"/>
-			<PHOTO_FUNC name="Shutter2" value="8"/>
-			<PHOTO_FUNC name="ZoomIn" value="9"/>
-			<PHOTO_FUNC name="ZoomOut" value="10"/>
-			<PHOTO_FUNC name="Enter" value="11"/>
-			<PHOTO_FUNC name="Menu" value="12"/>
-			<PHOTO_FUNC name="Mode" value="13"/>
-			<PHOTO_FUNC name="PlayBack" value="14"/>
+			<PHOTO_FUNC name="UP" value="4"/>
+			<PHOTO_FUNC name="Down" value="5"/>
+			<PHOTO_FUNC name="Menu" value="6"/>
+			<PHOTO_FUNC name="Mode" value="7"/>
+			<PHOTO_FUNC name="Enter" value="8"/>
+			<PHOTO_FUNC name="Shutter1" value="9"/>
+			<PHOTO_FUNC name="Shutter2" value="10"/>
+			<PHOTO_FUNC name="LEFT" value="11"/>
+			<PHOTO_FUNC name="RIGHT" value="12"/>
+			<PHOTO_FUNC name="ZoomIn" value="13"/>
+			<PHOTO_FUNC name="ZoomOut" value="14"/>
+			<PHOTO_FUNC name="PlayBack" value="15"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
-			<PHOTO_FUNC name="镜头切换"  value="23"/>			
-			<PHOTO_FUNC name="补光灯"    value="24"/>
-			<PHOTO_FUNC name="录音开关"  value="25"/>
-			<PHOTO_FUNC name="缩时录像"  value="26"/>
-			<PHOTO_FUNC name="快捷键3"   value="27"/>			
-			<PHOTO_FUNC name="小视频"    value="28"/>
-			<PHOTO_FUNC name="Wifi开关"  value="29"/>
-			<PHOTO_FUNC name="快捷键6"   value="30"/>
-			<PHOTO_FUNC name="快捷键7"   value="31"/>
-			<PHOTO_FUNC name="快捷键8"   value="32"/>
-			<PHOTO_FUNC name="移动帧测"  value="33"/>
-			<PHOTO_FUNC name="恢复默认"  value="34"/>
-			<PHOTO_FUNC name="UserKey"   value="35"/>
-			<PHOTO_FUNC name="停车监控"  value="36"/>
-			<PHOTO_FUNC name="屏幕保护"  value="37"/>
+			<PHOTO_FUNC name="关屏"  value="16"/>
 		</APP_PHOTO_FUNC>
-		<APP_PLAY_FUNC>			
-			<PLAY_FUNC name="Default" value="0"/>			
+		<APP_PLAY_FUNC>
+			<PLAY_FUNC name="Default" value="0"/>
 			<PLAY_FUNC name="无功能" value="254"/>
-			<PLAY_FUNC name="UP" value="2"/>
-			<PLAY_FUNC name="Down" value="3"/>
-			<PLAY_FUNC name="LEFT" value="4"/>
-			<PLAY_FUNC name="RIGHT" value="5"/>
-			<PLAY_FUNC name="ZoomIn" value="6"/>
-			<PLAY_FUNC name="ZoomOut" value="7"/>
-			<PLAY_FUNC name="Mode" value="10"/>
-			<PLAY_FUNC name="Menu" value="11"/>
-			<PLAY_FUNC name="确认" value="15"/>
-			<PLAY_FUNC name="PlayBack" value="16"/>
+			<PLAY_FUNC name="UP" value="3"/>
+			<PLAY_FUNC name="Down" value="4"/>
+			<PLAY_FUNC name="Menu" value="5"/>
+			<PLAY_FUNC name="Mode" value="6"/>
+			<PLAY_FUNC name="Enter" value="7"/>
+			<PLAY_FUNC name="Shutter2" value="8"/>
+			<PLAY_FUNC name="LEFT" value="9"/>
+			<PLAY_FUNC name="RIGHT" value="10"/>
+			<PLAY_FUNC name="ZoomIn" value="11"/>
+			<PLAY_FUNC name="ZoomOut" value="12"/>
+			<PLAY_FUNC name="PlayBack" value="13"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
-			<PLAY_FUNC name="镜头切换"  value="21"/>			
-			<PLAY_FUNC name="补光灯"    value="22"/>
-			<PLAY_FUNC name="录音开关"  value="23"/>
-			<PLAY_FUNC name="缩时录像"  value="24"/>
-			<PLAY_FUNC name="快捷键3"   value="25"/>			
-			<PLAY_FUNC name="小视频"    value="26"/>
-			<PLAY_FUNC name="Wifi开关"  value="27"/>
-			<PLAY_FUNC name="快捷键6"   value="28"/>
-			<PLAY_FUNC name="快捷键7"   value="29"/>
-			<PLAY_FUNC name="快捷键8"   value="30"/>
-			<PLAY_FUNC name="移动帧测"  value="31"/>
-			<PLAY_FUNC name="恢复默认"  value="32"/>
-			<PLAY_FUNC name="UserKey"   value="33"/>
-			<PLAY_FUNC name="停车监控"  value="34"/>
-			<PLAY_FUNC name="屏幕保护"  value="35"/>
+			<PLAY_FUNC name="关屏"  value="14"/>
 		</APP_PLAY_FUNC>
-		<APP_BROWSER_FUNC>			
+		<APP_BROWSER_FUNC>
 			<BROWSER_FUNC name="Default" value="0"/>
 			<BROWSER_FUNC name="无功能" value="254"/>
-			<BROWSER_FUNC name="Up"  value="2"/>	
-			<BROWSER_FUNC name="Down"  value="3"/>	
-			<BROWSER_FUNC name="Left"  value="4"/>	
-			<BROWSER_FUNC name="Right"  value="5"/>	
-			<BROWSER_FUNC name="Enter"  value="6"/>	
-			<BROWSER_FUNC name="Menu"  value="7"/>	
-			<BROWSER_FUNC name="Mode"  value="8"/>	
-			<BROWSER_FUNC name="确认"  value="10"/>	
-			<BROWSER_FUNC name="镜头切换"  value="11"/>			
+			<BROWSER_FUNC name="Up"  value="2"/>
+			<BROWSER_FUNC name="Down"  value="3"/>
+			<BROWSER_FUNC name="Left"  value="4"/>
+			<BROWSER_FUNC name="Right"  value="5"/>
+			<BROWSER_FUNC name="Enter"  value="6"/>
+			<BROWSER_FUNC name="Menu"  value="7"/>
+			<BROWSER_FUNC name="Mode"  value="8"/>
+			<BROWSER_FUNC name="确认"  value="10"/>
+			<BROWSER_FUNC name="镜头切换"  value="11"/>
 			<BROWSER_FUNC name="补光灯"    value="12"/>
 			<BROWSER_FUNC name="录音开关"  value="13"/>
 			<BROWSER_FUNC name="缩时录像"  value="14"/>
-			<BROWSER_FUNC name="快捷键3"   value="15"/>			
+			<BROWSER_FUNC name="快捷键3"   value="15"/>
 			<BROWSER_FUNC name="小视频"    value="16"/>
 			<BROWSER_FUNC name="Wifi开关"  value="17"/>
 			<BROWSER_FUNC name="快捷键6"   value="18"/>
@@ -133,11 +95,11 @@
 			<MENU_FUNC name="Right" value="9"/>
 			<MENU_FUNC name="确认" value="10"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
-			<MENU_FUNC name="镜头切换"  value="11"/>			
+			<MENU_FUNC name="镜头切换"  value="11"/>
 			<MENU_FUNC name="补光灯"    value="12"/>
 			<MENU_FUNC name="录音开关"  value="13"/>
 			<MENU_FUNC name="缩时录像"  value="14"/>
-			<MENU_FUNC name="快捷键3"   value="15"/>			
+			<MENU_FUNC name="快捷键3"   value="15"/>
 			<MENU_FUNC name="小视频"    value="16"/>
 			<MENU_FUNC name="Wifi开关"  value="17"/>
 			<MENU_FUNC name="快捷键6"   value="18"/>
