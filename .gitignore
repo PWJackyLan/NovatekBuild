@@ -4,4 +4,5 @@ debuglog.txt
 *.rar
 *.zip
 *.7z
-/plugins/PhotoRawTrans/InitDir.ini
+InitDir.ini
+CarDvCfonig.ini

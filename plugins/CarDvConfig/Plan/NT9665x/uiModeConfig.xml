@@ -33,5 +33,19 @@
 			<DEFAULT name="RTSP" value="2"/>
 			<MOVIE_LIVEVIEW name="DUAL_REC_HTTP" value="3"/>
 		</WIFI_LIVEVIEW>
+		<DELAY_POWEROFF id="延时关机" IndexInfo="CFG_DELAY_POWEROFF">
+			<DELAY_0S name="0秒" value="0" Remark="掉电马上关机"/>
+			<DELAY_1S name="1秒" value="1" />			
+			<DELAY_5S name="5秒" value="5" />
+			<DEFAULT  name="10秒" value="10" />
+			<DELAY_20S name="20秒" value="20" />
+			<DELAY_30S name="30秒" value="30" />
+			<DELAY_60S name="1分钟" value="60" />
+		</DELAY_POWEROFF >
+		<UART2_FUNC id="串口2功能" IndexInfo="CFG_UART2_FUNCTION" >
+			<UART2_NONE    name="禁用" value="0" />
+			<UART2_GPS     name="GPS" value="1" />
+			<UART2_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART2_FUNC>
 	</Setup>	
 </LIBRARY>
