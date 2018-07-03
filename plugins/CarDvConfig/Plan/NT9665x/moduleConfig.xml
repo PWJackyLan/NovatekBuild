@@ -153,8 +153,8 @@
 			<NVTEVT name="CUSTOM1" 		index="17" 	value="0x00010000"/>
 			<NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/>
 			<NVTEVT name="静音" 		index="19" 	value="0x00040000"/>
-			<NVTEVT name="缩时录像" 	index="20" 	value="0x00080000"/>
-	
+			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
+
 			<!---快捷按键/-->
 			<NVTEVT name="快捷键3" 		index="21" value="0x00100000"/>
 			<NVTEVT name="小视屏" 		index="22" value="0x00200000"/>
