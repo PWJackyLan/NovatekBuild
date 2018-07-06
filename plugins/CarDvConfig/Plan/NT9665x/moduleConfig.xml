@@ -16,7 +16,7 @@
 			<MOVIE_FUNC name="Right" value="12"/>
 			<MOVIE_FUNC name="放大" value="13"/>
 			<MOVIE_FUNC name="缩小" value="14"/>
-			<MOVIE_FUNC name="回放模式" value="15"/>
+			<MOVIE_FUNC name="PlayBack" value="15"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
 			<MOVIE_FUNC name="录音开关"  value="16"/>
 			<MOVIE_FUNC name="录影开关"  value="17"/>
@@ -39,6 +39,7 @@
 			<PHOTO_FUNC name="PlayBack" value="15"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
 			<PHOTO_FUNC name="关屏"  value="16"/>
+			<PHOTO_FUNC name="Capture"  value="17"/>
 		</APP_PHOTO_FUNC>
 		<APP_PLAY_FUNC>
 			<PLAY_FUNC name="Default" value="0"/>
