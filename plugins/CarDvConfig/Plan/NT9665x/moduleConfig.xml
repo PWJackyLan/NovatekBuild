@@ -138,7 +138,7 @@
 						
 			<NVTEVT name="回车" 		index="5" 	value="0x00000010"/>
 			<NVTEVT name="菜单" 		index="6" 	value="0x00000020"/>
-			<NVTEVT name="关机" 		index="7" 	value="0x00000040"/>
+			<NVTEVT name="删除" 		index="7" 	value="0x00000040"/>
 			<NVTEVT name="模式" 		index="8" 	value="0x00000080"/>
 			
 			<NVTEVT name="放大" 		index="9" 	value="0x00000100"/>
@@ -170,7 +170,7 @@
 			<NVTEVT name="加锁" 		index="29" value="0x10000000"/>
 			<NVTEVT name="停车" 		index="30" value="0X20000000"/>
 			<NVTEVT name="关屏" 		index="31" value="0x40000000"/>
-			<NVTEVT name="POWER" 		index="32" value="0x80000000"/>
+			<NVTEVT name="关机" 		index="32" value="0x80000000"/>
 		</NVTEVT>
 	</SYSTEM_KEY>
 	
