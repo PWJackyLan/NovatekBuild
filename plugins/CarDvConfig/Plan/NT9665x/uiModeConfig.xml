@@ -28,6 +28,14 @@
 			<DEFAULT	name="Disable" 		value="0" />
 			<PIP_ENABLE	name="Enable" 		value="1" />
 		</PIP_VIEW_FUNC>
+		<PIPVIEW_SYTLE id="画中画类型" IndexInfo="CFG_PIPVIEW_SYTLE">
+			<DEFAULT		name="1T1F" 	value="0" /> 
+			<STYTLE_1T1B2S	name="1T1B2S" 	value="1" />
+			<STYTLE_1T1S2B	name="1T1S2B" 	value="2" />
+			<STYTLE_2T2F	name="2T2F" 	value="3" /> 
+			<STYTLE_2T1B2S	name="2T1B2S" 	value="4" />
+			<STYTLE_2T1S2B	name="2T1S2B" 	value="5" />
+		</PIPVIEW_SYTLE>
 		<WIFI_LIVEVIEW id="Wifi传输协议" IndexInfo="CFG_MOVIE_LIVEVIEW">
 			<MOVIE_LIVEVIEW name="HTTP" value="1"/>
 			<DEFAULT name="RTSP" value="2"/>
