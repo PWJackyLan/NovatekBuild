@@ -23,6 +23,11 @@ typedef struct
 	char *pCtrlBin;
 }UILAYOUT_CTRL_INFO;
 
+extern UINT32 UILayout_OnCopyMem(WORKMEM_RANGE *pMemObj,void *pSrcData,UINT32 uiSize,BOOL bMemAlign);
+#define SET_WORKMEM_RANGE(FixSize,ObjPos)       {0,FixSize,0,0,0,ObjPos}
+#define SET_WORKMEM_COPY(pMem,pSrcData,uiSize)  UILayout_OnCopyMem(pMem,(void *)pSrcData,uiSize,TRUE)
+#define SET_WORKMEM_COPYSTRING(pMem,src)        UILayout_OnCopyMem(pMem,src,strlen(src),FALSE)
+
 
 extern void UILayout_OnSaveInit(VControl *pCtrl, WORKMEM_RANGE *pPageMem);
 extern void UILayout_OnCreatRes(VControl *pCtrl,char *pFilePath);
