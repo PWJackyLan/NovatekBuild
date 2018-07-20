@@ -59,5 +59,14 @@
 			<DEFAULT			   name="16:9" value="0" />
 			<DISPLAY_169HD_YES     name="4:3" value="1" />
 		</DISPLAY_169HD_FUNC>
+		<ACC_STATUS id="ACC触发开机" IndexInfo="CFG_ACC_CHANNEL">
+			<DEFAULT 	name="默认" 	value="0" />
+			<ACC_PSW2 	name="PSW2" 	value="1" />
+			<ACC_PSW3 	name="PSW3" 	value="2" />
+			<ACC_PSW4 	name="PSW4" 	value="3" />
+			<ACC_PSW3_IO12 	name="PSW3+IO12" 	value="19586" Remark="PSW3+Bit_8+IO12"/>	
+			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
+			
+		</ACC_STATUS>
 	</Setup>	
 </LIBRARY>
