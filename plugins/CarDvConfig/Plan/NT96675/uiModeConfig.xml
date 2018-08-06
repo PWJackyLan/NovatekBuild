@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<!--Software_version  version="1.1"/--> 
+<LIBRARY>
+	<Setup>
+		<ROTATE_DEGREE id="显示旋转度" IndexInfo="CFG_ROTATE_DEGREE" >
+			<ROTATE_0 		name="0度" 		value="0"  Remark="No rotation"/>
+			<ROTATE_90 		name="90度" 	value="1" Remark="rotate 90 degree"/>
+			<ROTATE_90_V 	name="90 VERT" 	value="2" Remark="rotate 90 degree + vertical flip"/>
+			<ROTATE_180 	name="180度" 	value="3" Remark="rotate 180 degree"/>
+			<DEFAULT 		name="270度" 	value="4" Remark="rotate 270 degree"/>
+			<ROTATE_270_V 	name="270 VERT" value="5" Remark="rotate 270 degree  + vertical flip"/>
+			<ROTATE_HORZ 	name="HORZ" 	value="6" Remark="horzional flip"/>
+			<ROTATE_VERT 	name="VERT" 	value="7" Remark="vertical flip"/>
+		</ROTATE_DEGREE>
+		<SENSOR_DIR1  id="Sensor1方向" IndexInfo="CFG_SENSOR1_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>
+		</SENSOR_DIR1>
+		<SENSOR_DIR2  id="Sensor2方向" IndexInfo="CFG_SENSOR2_DIR">
+			<DEFAULT 		name="标准" 	value="0"/>
+			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
+			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
+			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>		
+		</SENSOR_DIR2>
+		<PIP_VIEW_FUNC id="PIP_VIEW_FUNC" IndexInfo="CFG_PIP_VIEW_FUNC">
+			<DEFAULT	name="Disable" 		value="0" />
+			<PIP_ENABLE	name="Enable" 		value="1" />
+		</PIP_VIEW_FUNC>
+		<PIPVIEW_SYTLE id="画中画类型" IndexInfo="CFG_PIPVIEW_SYTLE">
+			<DEFAULT		name="1T1F" 	value="0" /> 
+			<STYTLE_1T1B2S	name="1T1B2S" 	value="1" />
+			<STYTLE_1T1S2B	name="1T1S2B" 	value="2" />
+			<STYTLE_2T2F	name="2T2F" 	value="3" /> 
+			<STYTLE_2T1B2S	name="2T1B2S" 	value="4" />
+			<STYTLE_2T1S2B	name="2T1S2B" 	value="5" />
+		</PIPVIEW_SYTLE>
+		<WIFI_LIVEVIEW id="Wifi传输协议" IndexInfo="CFG_MOVIE_LIVEVIEW">
+			<MOVIE_LIVEVIEW name="HTTP" value="1"/>
+			<DEFAULT name="RTSP" value="2"/>
+			<MOVIE_LIVEVIEW name="DUAL_REC_HTTP" value="3"/>
+		</WIFI_LIVEVIEW>
+		<DELAY_POWEROFF id="延时关机" IndexInfo="CFG_DELAY_POWEROFF">
+			<DELAY_0S name="0秒" value="0" Remark="掉电马上关机"/>
+			<DELAY_1S name="1秒" value="1" />			
+			<DELAY_5S name="5秒" value="5" />
+			<DEFAULT  name="10秒" value="10" />
+			<DELAY_20S name="20秒" value="20" />
+			<DELAY_30S name="30秒" value="30" />
+			<DELAY_60S name="1分钟" value="60" />
+		</DELAY_POWEROFF >
+		<UART2_FUNC id="串口2功能" IndexInfo="CFG_UART2_FUNCTION" >
+			<DEFAULT    name="禁用" value="0" />
+			<UART2_GPS     name="GPS" value="1" />
+			<UART2_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART2_FUNC>
+		<DISPLAY_169HD_FUNC id="显示比例" IndexInfo="CFG_DISPLAY_169HD" >
+			<DEFAULT			   name="16:9" value="0" />
+			<DISPLAY_169HD_YES     name="4:3" value="1" />
+		</DISPLAY_169HD_FUNC>
+		<ACC_STATUS id="ACC触发开机" IndexInfo="CFG_ACC_CHANNEL">
+			<DEFAULT 	name="默认" 	value="0" />
+			<ACC_PSW2 	name="PSW2" 	value="1" />
+			<ACC_PSW3 	name="PSW3" 	value="2" />
+			<ACC_PSW4 	name="PSW4" 	value="3" />
+			<ACC_PSW3_IO12 	name="PSW3+IO12" 	value="19586" Remark="PSW3+Bit_8+IO12"/>	
+			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
+			
+		</ACC_STATUS>
+	</Setup>	
+</LIBRARY>

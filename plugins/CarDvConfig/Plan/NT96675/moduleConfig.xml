@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--Software_version  version="1.1"/--> 
+<LIBRARY>
+<APP_FUNCTION>
+		<APP_MOVIE_FUNC>
+			<MOVIE_FUNC name="Default" value="0"/>
+			<MOVIE_FUNC name="无功能" value="254"/>
+			<MOVIE_FUNC name="UP" value="4"/>
+			<MOVIE_FUNC name="Down" value="5"/>
+			<MOVIE_FUNC name="Menu" value="6"/>
+			<MOVIE_FUNC name="Mode" value="7"/>
+			<MOVIE_FUNC name="Enter" value="8"/>
+			<MOVIE_FUNC name="Shutter2" value="9"/>
+			<MOVIE_FUNC name="锁定文件" value="10"/>
+			<MOVIE_FUNC name="Left" value="11"/>
+			<MOVIE_FUNC name="Right" value="12"/>
+			<MOVIE_FUNC name="放大" value="13"/>
+			<MOVIE_FUNC name="缩小" value="14"/>
+			<MOVIE_FUNC name="PlayBack" value="15"/>
+			<!--以下为自定义列表顺序   version="1.1"/--> 
+			<MOVIE_FUNC name="录音开关"  value="16"/>
+			<MOVIE_FUNC name="录影开关"  value="17"/>
+			<MOVIE_FUNC name="关屏"  value="18"/>
+		</APP_MOVIE_FUNC>
+		<APP_PHOTO_FUNC>
+			<PHOTO_FUNC name="Default" value="0"/>
+			<MOVIE_FUNC name="无功能" value="254"/>
+			<PHOTO_FUNC name="UP" value="4"/>
+			<PHOTO_FUNC name="Down" value="5"/>
+			<PHOTO_FUNC name="Menu" value="6"/>
+			<PHOTO_FUNC name="Mode" value="7"/>
+			<PHOTO_FUNC name="Enter" value="8"/>
+			<PHOTO_FUNC name="Shutter1" value="9"/>
+			<PHOTO_FUNC name="Shutter2" value="10"/>
+			<PHOTO_FUNC name="LEFT" value="11"/>
+			<PHOTO_FUNC name="RIGHT" value="12"/>
+			<PHOTO_FUNC name="ZoomIn" value="13"/>
+			<PHOTO_FUNC name="ZoomOut" value="14"/>
+			<PHOTO_FUNC name="PlayBack" value="15"/>
+			<!--以下为自定义列表顺序   version="1.1"/--> 
+			<PHOTO_FUNC name="关屏"  value="16"/>
+			<PHOTO_FUNC name="Capture"  value="17"/>
+		</APP_PHOTO_FUNC>
+		<APP_PLAY_FUNC>
+			<PLAY_FUNC name="Default" value="0"/>
+			<PLAY_FUNC name="无功能" value="254"/>
+			<PLAY_FUNC name="UP" value="3"/>
+			<PLAY_FUNC name="Down" value="4"/>
+			<PLAY_FUNC name="Menu" value="5"/>
+			<PLAY_FUNC name="Mode" value="6"/>
+			<PLAY_FUNC name="Enter" value="7"/>
+			<PLAY_FUNC name="Shutter2" value="8"/>
+			<PLAY_FUNC name="LEFT" value="9"/>
+			<PLAY_FUNC name="RIGHT" value="10"/>
+			<PLAY_FUNC name="ZoomIn" value="11"/>
+			<PLAY_FUNC name="ZoomOut" value="12"/>
+			<PLAY_FUNC name="PlayBack" value="13"/>
+			<!--以下为自定义列表顺序   version="1.1"/--> 
+			<PLAY_FUNC name="关屏"  value="14"/>
+		</APP_PLAY_FUNC>
+		<APP_BROWSER_FUNC>
+			<BROWSER_FUNC name="Default" value="0"/>
+			<BROWSER_FUNC name="无功能" value="254"/>
+			<BROWSER_FUNC name="Up"  value="2"/>
+			<BROWSER_FUNC name="Down"  value="3"/>
+			<BROWSER_FUNC name="Left"  value="4"/>
+			<BROWSER_FUNC name="Right"  value="5"/>
+			<BROWSER_FUNC name="Enter"  value="6"/>
+			<BROWSER_FUNC name="Menu"  value="7"/>
+			<BROWSER_FUNC name="Mode"  value="8"/>
+			<BROWSER_FUNC name="确认"  value="10"/>
+			<BROWSER_FUNC name="镜头切换"  value="11"/>
+			<BROWSER_FUNC name="补光灯"    value="12"/>
+			<BROWSER_FUNC name="录音开关"  value="13"/>
+			<BROWSER_FUNC name="缩时录像"  value="14"/>
+			<BROWSER_FUNC name="快捷键3"   value="15"/>
+			<BROWSER_FUNC name="小视频"    value="16"/>
+			<BROWSER_FUNC name="Wifi开关"  value="17"/>
+			<BROWSER_FUNC name="快捷键6"   value="18"/>
+			<BROWSER_FUNC name="快捷键7"   value="19"/>
+			<BROWSER_FUNC name="快捷键8"   value="20"/>
+			<BROWSER_FUNC name="移动帧测"  value="21"/>
+			<BROWSER_FUNC name="恢复默认"  value="22"/>
+			<BROWSER_FUNC name="UserKey"   value="23"/>
+			<BROWSER_FUNC name="停车监控"  value="24"/>
+			<BROWSER_FUNC name="屏幕保护"  value="25"/>
+		</APP_BROWSER_FUNC>
+		<APP_MENU_FUNC>
+			<MENU_FUNC name="Default" value="0"/>
+			<MENU_FUNC name="Down" value="3"/>
+			<MENU_FUNC name="Left" value="4"/>
+			<MENU_FUNC name="Menu" value="5"/>
+			<MENU_FUNC name="Mode" value="6"/>
+			<MENU_FUNC name="Up" value="7"/>
+			<MENU_FUNC name="Down" value="8"/>
+			<MENU_FUNC name="Right" value="9"/>
+			<MENU_FUNC name="确认" value="10"/>
+			<!--以下为自定义列表顺序   version="1.1"/--> 
+			<MENU_FUNC name="镜头切换"  value="11"/>
+			<MENU_FUNC name="补光灯"    value="12"/>
+			<MENU_FUNC name="录音开关"  value="13"/>
+			<MENU_FUNC name="缩时录像"  value="14"/>
+			<MENU_FUNC name="快捷键3"   value="15"/>
+			<MENU_FUNC name="小视频"    value="16"/>
+			<MENU_FUNC name="Wifi开关"  value="17"/>
+			<MENU_FUNC name="快捷键6"   value="18"/>
+			<MENU_FUNC name="快捷键7"   value="19"/>
+			<MENU_FUNC name="快捷键8"   value="20"/>
+			<MENU_FUNC name="移动帧测"  value="21"/>
+			<MENU_FUNC name="恢复默认"  value="22"/>
+			<MENU_FUNC name="UserKey"   value="23"/>
+			<MENU_FUNC name="停车监控"  value="24"/>
+			<MENU_FUNC name="屏幕保护"  value="25"/>
+		</APP_MENU_FUNC>
+	</APP_FUNCTION>		
+	<!---最多可以标记32个状态 MaxValue:0x80000000/-->
+	<!---可自行clone FUNC_SYSTEM_MODEL 为新的tab/-->
+	<CUSTOM_FUNCTRON_CTRL>
+		<FUNC_SYSTEM_MODEL node="系统模块">
+			<GPS_FUNC 	name="启用GPS功能" 		value="0x00000001" default="ENABLE" />
+			<HDMI_FUNC  name="启用HDMI功能"  	value="0x00000002" default="DISABLE" />
+			<TV_FUNC    name="启用TV功能"  		value="0x00000004" default="ENABLE" />
+			<ROTATE_BUF name="旋转显示缓存"		value="0x00000008" default="DISABLE" />
+			<IRLED_FUNC name="启用IRLED"	    value="0x00000040" default="DISABLE" />
+			<GSN_FUNC	name="启用GSensor扩展"  value="0x00000080" default="DISABLE" />
+			<IRCUT_FUNC name="启用IRCUT"	    value="0x00000100" default="DISABLE" />
+			<WIFI_FUNC  name="启用WIFI功能"	    value="0x00000800" default="DISABLE" />
+			<DUAL_FUNC  name="启用双路功能"		value="0x00001000" default="DISABLE" />
+		</FUNC_SYSTEM_MODEL>
+
+	</CUSTOM_FUNCTRON_CTRL>
+	<SYSTEM_KEY>
+		<NVTEVT>
+			<NVTEVT name="上键" 		index="1" 	value="0x00000001"/>
+			<NVTEVT name="下键" 		index="2" 	value="0x00000002"/>
+			<NVTEVT name="左键" 		index="3" 	value="0x00000004"/>
+			<NVTEVT name="右键" 		index="4" 	value="0x00000008"/>
+						
+			<NVTEVT name="回车" 		index="5" 	value="0x00000010"/>
+			<NVTEVT name="菜单" 		index="6" 	value="0x00000020"/>
+			<NVTEVT name="删除" 		index="7" 	value="0x00000040"/>
+			<NVTEVT name="模式" 		index="8" 	value="0x00000080"/>
+			
+			<NVTEVT name="放大" 		index="9" 	value="0x00000100"/>
+			<NVTEVT name="缩小" 		index="10" 	value="0x00000200"/>
+			<NVTEVT name="SHUTTER1" 	index="11" 	value="0x00000400"/>
+			<NVTEVT name="SHUTTER2" 	index="12" 	value="0x00000800"/>
+			
+			<NVTEVT name="回放模式" 	index="13" 	value="0x00001000"/>
+			<NVTEVT name="录像模式" 	index="14" 	value="0x00002000"/>
+			<NVTEVT name="拍照模式" 	index="15" 	value="0x00004000"/>
+			<NVTEVT name="前后摄像头" 	index="16" 	value="0x00008000"/>
+
+			<NVTEVT name="CUSTOM1" 		index="17" 	value="0x00010000"/>
+			<NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/>
+			<NVTEVT name="静音" 		index="19" 	value="0x00040000"/>
+			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
+
+			<!---快捷按键/-->
+			<NVTEVT name="快捷键3" 		index="21" value="0x00100000"/>
+			<NVTEVT name="小视屏" 		index="22" value="0x00200000"/>
+			<NVTEVT name="WIFI开关" 	index="23" value="0x00400000"/>
+			<NVTEVT name="快捷键6" 		index="24" value="0x00800000"/>
+			
+			<NVTEVT name="快捷键7" 		index="25" value="0x01000000" Remark=""/>
+			<NVTEVT name="快捷键8" 		index="26" value="0x02000000" Remark=""/>
+			<NVTEVT name="移动帧测" 	index="27" value="0x04000000"/>
+			<NVTEVT name="恢复默认" 	index="28" value="0x08000000"/>
+			
+			<NVTEVT name="加锁" 		index="29" value="0x10000000"/>
+			<NVTEVT name="停车" 		index="30" value="0X20000000"/>
+			<NVTEVT name="关屏" 		index="31" value="0x40000000"/>
+			<NVTEVT name="关机" 		index="32" value="0x80000000"/>
+		</NVTEVT>
+	</SYSTEM_KEY>
+	
+</LIBRARY>
