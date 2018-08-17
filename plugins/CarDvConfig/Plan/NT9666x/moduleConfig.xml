@@ -158,6 +158,7 @@
 			<HDMI_FUNC  name="启用HDMI功能"  	value="0x00000002" default="DISABLE" />
 			<TV_FUNC    name="启用TV功能"  		value="0x00000004" default="ENABLE" />
 			<ROTATE_BUF name="旋转显示缓存"		value="0x00000008" default="DISABLE" />
+			<ROTATE_PIP name="后路显示镜像"		value="0x00000010" default="DISABLE" />
 			<IRLED_FUNC name="启用IRLED"	    value="0x00000040" default="DISABLE" />
 			<GSN_FUNC	name="启用GSensor扩展"  value="0x00000080" default="DISABLE" />
 			<IRCUT_FUNC name="启用IRCUT"	    value="0x00000100" default="DISABLE" />
