@@ -23,6 +23,7 @@
 			<MOVIE_FUNC name="关屏"  value="18"/>
 			<MOVIE_FUNC name="画中画切换"  value="19"/>
 			<MOVIE_FUNC name="锁定文件"  value="20"/>
+			<MOVIE_FUNC name="Wifi开关"  value="21"/>
 		</APP_MOVIE_FUNC>
 		<APP_PHOTO_FUNC>
 			<PHOTO_FUNC name="Default" value="0"/>
