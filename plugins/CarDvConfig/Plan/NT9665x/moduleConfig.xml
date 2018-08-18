@@ -11,7 +11,7 @@
 			<MOVIE_FUNC name="Mode" value="7"/>
 			<MOVIE_FUNC name="Enter" value="8"/>
 			<MOVIE_FUNC name="Shutter2" value="9"/>
-			<MOVIE_FUNC name="锁定文件" value="10"/>
+			<MOVIE_FUNC name="加锁/解锁" value="10"/>
 			<MOVIE_FUNC name="Left" value="11"/>
 			<MOVIE_FUNC name="Right" value="12"/>
 			<MOVIE_FUNC name="放大" value="13"/>
@@ -21,6 +21,8 @@
 			<MOVIE_FUNC name="录音开关"  value="16"/>
 			<MOVIE_FUNC name="录影开关"  value="17"/>
 			<MOVIE_FUNC name="关屏"  value="18"/>
+			<MOVIE_FUNC name="画中画切换"  value="19"/>
+			<MOVIE_FUNC name="锁定文件"  value="20"/>
 		</APP_MOVIE_FUNC>
 		<APP_PHOTO_FUNC>
 			<PHOTO_FUNC name="Default" value="0"/>

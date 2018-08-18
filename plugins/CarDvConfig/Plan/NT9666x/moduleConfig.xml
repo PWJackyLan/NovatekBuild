@@ -158,6 +158,7 @@
 			<HDMI_FUNC  name="启用HDMI功能"  	value="0x00000002" default="DISABLE" />
 			<TV_FUNC    name="启用TV功能"  		value="0x00000004" default="ENABLE" />
 			<ROTATE_BUF name="旋转显示缓存"		value="0x00000008" default="DISABLE" />
+			<ROTATE_PIP name="后路显示镜像"		value="0x00000010" default="DISABLE" />
 			<IRLED_FUNC name="启用IRLED"	    value="0x00000040" default="DISABLE" />
 			<GSN_FUNC	name="启用GSensor扩展"  value="0x00000080" default="DISABLE" />
 			<IRCUT_FUNC name="启用IRCUT"	    value="0x00000100" default="DISABLE" />
@@ -191,7 +192,7 @@
 			<NVTEVT name="CUSTOM1" 		index="17" 	value="0x00010000"/>
 			<NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/>
 			<NVTEVT name="静音" 		index="19" 	value="0x00040000"/>
-			<NVTEVT name="缩时录像" 	index="20" 	value="0x00080000"/>
+			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
 	
 			<!---快捷按键/-->
 			<NVTEVT name="快捷键3" 		index="21" value="0x00100000"/>
