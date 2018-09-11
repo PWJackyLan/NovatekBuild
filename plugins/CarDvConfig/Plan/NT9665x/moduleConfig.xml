@@ -24,6 +24,7 @@
 			<MOVIE_FUNC name="画中画切换"  value="19"/>
 			<MOVIE_FUNC name="锁定文件"  value="20"/>
 			<MOVIE_FUNC name="Wifi开关"  value="21"/>
+			<MOVIE_FUNC name="格式化"  value="22"/>
 		</APP_MOVIE_FUNC>
 		<APP_PHOTO_FUNC>
 			<PHOTO_FUNC name="Default" value="0"/>
@@ -76,7 +77,7 @@
 			<BROWSER_FUNC name="补光灯"    value="12"/>
 			<BROWSER_FUNC name="录音开关"  value="13"/>
 			<BROWSER_FUNC name="缩时录像"  value="14"/>
-			<BROWSER_FUNC name="快捷键3"   value="15"/>
+			<BROWSER_FUNC name="格式化"   value="15"/>
 			<BROWSER_FUNC name="小视频"    value="16"/>
 			<BROWSER_FUNC name="Wifi开关"  value="17"/>
 			<BROWSER_FUNC name="快捷键6"   value="18"/>
@@ -103,7 +104,7 @@
 			<MENU_FUNC name="补光灯"    value="12"/>
 			<MENU_FUNC name="录音开关"  value="13"/>
 			<MENU_FUNC name="缩时录像"  value="14"/>
-			<MENU_FUNC name="快捷键3"   value="15"/>
+			<MENU_FUNC name="格式化"   value="15"/>
 			<MENU_FUNC name="小视频"    value="16"/>
 			<MENU_FUNC name="Wifi开关"  value="17"/>
 			<MENU_FUNC name="快捷键6"   value="18"/>
@@ -160,7 +161,7 @@
 			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
 
 			<!---快捷按键/-->
-			<NVTEVT name="快捷键3" 		index="21" value="0x00100000"/>
+			<NVTEVT name="格式化" 		index="21" value="0x00100000"/>
 			<NVTEVT name="小视屏" 		index="22" value="0x00200000"/>
 			<NVTEVT name="WIFI开关" 	index="23" value="0x00400000"/>
 			<NVTEVT name="快捷键6" 		index="24" value="0x00800000"/>

@@ -68,5 +68,9 @@
 			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
 			<ACC_PSW4_MC15 	name="PSW4+MC15" 	value="3843" Remark="Bit0_6(PSW4)+Bit_7(Dir)+Bit8_15(C_GPIO_15)"/>	
 		</ACC_STATUS>
+		<FORMAT id="初始格式化类型" IndexInfo="CFG_FORMAT_SD_CARD">
+			<DEFAULT    	name="默认" 		value="0" />
+			<FORMAT_CARD	name="定期格式化"	value="1" Remark="定期每个月的1号和15号第一次开机进入格式化界面"/>	
+		</FORMAT>
 	</Setup>	
 </LIBRARY>
