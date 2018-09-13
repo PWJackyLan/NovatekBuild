@@ -72,5 +72,9 @@
 			<DEFAULT    	name="默认" 		value="0" />
 			<FORMAT_CARD	name="定期格式化"	value="1" Remark="定期每个月的1号和15号第一次开机进入格式化界面"/>	
 		</FORMAT>
+		<AUTO_DISCOUNTION_WIFI id="自动断开连接Wifi" IndexInfo="CFG_AUTO_DISCOUNTION_WIFI">
+			<DEFAULT    	name="默认" 		value="0" />
+			<OFF_3MIN		name="3分钟"		value="1" Remark="开Wifi后3分钟内无设备连接自动断开"/>
+		</AUTO_DISCOUNTION_WIFI>
 	</Setup>	
 </LIBRARY>
