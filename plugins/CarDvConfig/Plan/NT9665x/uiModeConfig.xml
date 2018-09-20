@@ -76,5 +76,9 @@
 			<DEFAULT    	name="默认" 		value="0" />
 			<OFF_3MIN		name="3分钟"		value="1" Remark="开Wifi后3分钟内无设备连接自动断开"/>
 		</AUTO_DISCOUNTION_WIFI>
+		<STOP_PARKING_REBOOT id="停车守卫工作方式" IndexInfo="CFG_STOP_PARKING_TYPE">
+			<DEFAULT    	name="默认" 		value="0" />
+			<REBOOT			name="重启"			value="1" Remark="启动/停止停车守护重启"/>
+		</STOP_PARKING_REBOOT>
 	</Setup>	
 </LIBRARY>
