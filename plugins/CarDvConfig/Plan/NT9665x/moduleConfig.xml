@@ -156,7 +156,7 @@
 			<NVTEVT name="拍照模式" 	index="15" 	value="0x00004000"/>
 			<NVTEVT name="前后摄像头" 	index="16" 	value="0x00008000"/>
 
-			<NVTEVT name="CUSTOM1" 		index="17" 	value="0x00010000"/>
+			<NVTEVT name="加锁" 		index="17" 	value="0x00010000"/>
 			<NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/>
 			<NVTEVT name="静音" 		index="19" 	value="0x00040000"/>
 			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
@@ -172,7 +172,7 @@
 			<NVTEVT name="移动帧测" 	index="27" value="0x04000000"/>
 			<NVTEVT name="恢复默认" 	index="28" value="0x08000000"/>
 			
-			<NVTEVT name="加锁" 		index="29" value="0x10000000"/>
+			<NVTEVT name="UserKey" 		index="29" value="0x10000000"/>
 			<NVTEVT name="停车" 		index="30" value="0X20000000"/>
 			<NVTEVT name="关屏" 		index="31" value="0x40000000"/>
 			<NVTEVT name="关机" 		index="32" value="0x80000000"/>
