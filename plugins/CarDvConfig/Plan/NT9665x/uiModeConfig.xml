@@ -76,5 +76,15 @@
 			<DEFAULT    	name="默认" 		value="0" />
 			<OFF_3MIN		name="3分钟"		value="1" Remark="开Wifi后3分钟内无设备连接自动断开"/>
 		</AUTO_DISCOUNTION_WIFI>
+		<STOP_PARKING_REBOOT id="停车守卫工作方式" IndexInfo="CFG_STOP_PARKING_TYPE">
+			<DEFAULT    	name="默认" 		value="0" />
+			<REBOOT			name="重启"			value="1" Remark="启动/停止停车守护重启"/>
+		</STOP_PARKING_REBOOT>
+		<POWER_MCU id="电源管理IC" IndexInfo="CFG_POWER_MCU">
+			<DEFAULT 	    name="禁用"			value="0" />
+			<MCU_UART 	    name="Uart"			value="1" />
+			<MCU_IIC 	    name="IIC"			value="2" />
+			<MCU_IOCTRL	    name="IOCtrl"		value="4" />
+		</POWER_MCU>
 	</Setup>	
 </LIBRARY>
