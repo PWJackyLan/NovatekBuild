@@ -16,13 +16,13 @@
 			<DEFAULT 		name="标准" 	value="0"/>
 			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
 			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
-			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>
+			<SENSOR_USER 	name="自定义" 	value="3" Remark="User option"/>
 		</SENSOR_DIR1>
 		<SENSOR_DIR2  id="Sensor2方向" IndexInfo="CFG_SENSOR2_DIR">
 			<DEFAULT 		name="标准" 	value="0"/>
 			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
 			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
-			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>		
+			<SENSOR_USER 	name="自定义" 	value="3" Remark="User option"/>		
 		</SENSOR_DIR2>
 		<PIP_VIEW_FUNC id="PIP_VIEW_FUNC" IndexInfo="CFG_PIP_VIEW_FUNC">
 			<DEFAULT	name="Disable" 		value="0" />
@@ -86,5 +86,11 @@
 			<MCU_IIC 	    name="IIC"			value="2" />
 			<MCU_IOCTRL	    name="IOCtrl"		value="4" />
 		</POWER_MCU>
+		<GSENSOR_POWER_ON id="停车监控倒计时录像" IndexInfo="CFG_GSENSOR_POWER_ON">
+			<DEFAULT		name="默认" value="0" />
+			<COUNT_DOWN_10S name="10秒" value="10" Remark="倒计时录像10S后关机"/>
+			<COUNT_DOWN_20S name="20秒" value="20" Remark="倒计时录像20S后关机"/>
+			<COUNT_DOWN_30S name="30秒" value="30" Remark="倒计时录像30S后关机"/>
+		</GSENSOR_POWER_ON>
 	</Setup>	
 </LIBRARY>
