@@ -16,7 +16,7 @@
 			<DEFAULT 		name="标准" 	value="0"/>
 			<SENSOR_MIRROR 	name="镜像" 	value="1" Remark="Sensor mirror"/>
 			<SENSOR_FLIP 	name="翻转" 	value="2" Remark="Sensor flip"/>
-			<SENSOR_USER 	name="自定义" 	value="4" Remark="User option"/>
+			<SENSOR_USER 	name="自定义" 	value="3" Remark="User option"/>
 		</SENSOR_DIR1>
 		<SENSOR_DIR2  id="Sensor2方向" IndexInfo="CFG_SENSOR2_DIR">
 			<DEFAULT 		name="标准" 	value="0"/>
