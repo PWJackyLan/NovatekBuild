@@ -22,7 +22,7 @@
 			<NAME PIN_NAME="LCD_CTRL_POWER"		PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="GPIO_NULL" 	IndexInfo="IO_LCD_CTRL_POWER"	Remark="背光灯控制 DIR 必须保持为Output"  />
 			<NAME PIN_NAME="LCD_BLG_PCTL"		PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="P_GPIO_33" 	IndexInfo="IO_LCD_BLG_PCTL"	Remark="背光灯控制 DIR 必须保持为Output"  />
 			<NAME PIN_NAME="LCD_BLC_PWM"		PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="P_GPIO_14" 	IndexInfo="IO_LCD_BLG_PWM"	Remark="背光灯PWM亮度 DIR 必须保持为Output"  />
-			<NAME PIN_NAME="GREEN_LED"			PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="P_GPIO_0" 	IndexInfo="IO_GREEN_LED"	Remark="待机常亮，录像闪烁 "  />
+			<NAME PIN_NAME="GREEN_LED"			PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="P_GPIO_0" 	IndexInfo="IO_GREEN_LED"	Remark="待机常亮，录像熄灭 "  />
 			<NAME PIN_NAME="REC_LED"			PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="GPIO_NULL" 	IndexInfo="IO_LED_REC"	Remark="待机常亮，录像闪烁 "  />
 			<NAME PIN_NAME="RED_LED"			PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="GPIO_NULL" 	IndexInfo="IO_LED_RED"	Remark="待机闪烁，录像常亮 "  />
 			<NAME PIN_NAME="FCS_LED"			PIN_DIR="OUTPUT"   PAD_DIR="LOW/NONE"			PIN_VALUE="GPIO_NULL" 	IndexInfo="IO_LED_FCS"	Remark="待机闪烁，录像常亮 "  />
