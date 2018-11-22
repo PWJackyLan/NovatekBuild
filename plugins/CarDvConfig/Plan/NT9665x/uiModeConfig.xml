@@ -92,5 +92,11 @@
 			<COUNT_DOWN_20S name="20秒" value="20" Remark="倒计时录像20S后关机"/>
 			<COUNT_DOWN_30S name="30秒" value="30" Remark="倒计时录像30S后关机"/>
 		</GSENSOR_POWER_ON>
+		<MOVIE_FLIE_TYPE id="影像文件格式" IndexInfo="CFG_MOVIE_FLIE_TYPE">
+			<DEFAULT		name="默认" 	value="0" Remark="默认MP4格式"/>
+			<MOV_TYOE		name="MOV格式"  value="1" Remark="MOV格式"/>
+			<MP4_TYOE		name="MP4格式"  value="2" Remark="MP4格式"/>
+			<AVI_TYOE		name="AVI格式"  value="4" Remark="AVI格式"/>
+		</MOVIE_FLIE_TYPE>
 	</Setup>	
 </LIBRARY>
