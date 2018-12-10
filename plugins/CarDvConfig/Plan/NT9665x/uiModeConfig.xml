@@ -98,5 +98,11 @@
 			<MP4_TYOE		name="MP4格式"  value="2" Remark="MP4格式"/>
 			<AVI_TYOE		name="AVI格式"  value="4" Remark="AVI格式"/>
 		</MOVIE_FLIE_TYPE>
+		<MOVIE_FLIE_TYPE id="音频通道" IndexInfo="CFG_MOVIE_AUDIO_CHANNEL">
+			<AUDIO_LEFT		name="LEFT" 	value="1" Remark="左声道"/>
+			<DEFAULT		name="RIGHT"    value="2" Remark="右声道"/>
+			<AUDIO_STEREO	name="STEREO"   value="3" Remark="立体声"/>
+			<AUDIO_MONO		name="MONO"     value="4" Remark="虚拟双通道"/>
+		</MOVIE_FLIE_TYPE>
 	</Setup>	
 </LIBRARY>
