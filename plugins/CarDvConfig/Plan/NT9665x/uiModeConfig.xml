@@ -102,5 +102,11 @@
 			<DEFAULT		name="默认"		value="0" Remark="插拔SD卡关机"/>
 			<REBOOT			name="重启"		value="1" Remark="插拔SD卡重启"/>
 		</PLUG_OR_UNPLUG_SD>
+		<MOVIE_FLIE_TYPE id="音频通道" IndexInfo="CFG_MOVIE_AUDIO_CHANNEL">
+			<AUDIO_LEFT		name="LEFT" 	value="1" Remark="左声道"/>
+			<DEFAULT		name="RIGHT"    value="2" Remark="右声道"/>
+			<AUDIO_STEREO	name="STEREO"   value="3" Remark="立体声"/>
+			<AUDIO_MONO		name="MONO"     value="4" Remark="虚拟双通道"/>
+		</MOVIE_FLIE_TYPE>
 	</Setup>	
 </LIBRARY>
