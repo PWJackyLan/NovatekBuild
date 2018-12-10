@@ -20,7 +20,8 @@
 		"Photo": "PHOTO",
 		"RO": "LOCK"
 	},
-	"ReplaceCtrl": [{
+	"ReplaceCtrl": [
+		{
 			"Src": "UIFlowWndMovie_Status_battery",
 			"Dest": "UIFlowWndMovieHome_Status_battery"
 		},
@@ -44,24 +45,87 @@
 			"Func": "MenuCommonOption_Menu_OnKeyEnter"
 		}
 	],
+	"DateTime":[
+		{
+			"CtrlName":"UIFlowWndMovie_YMD_Static",
+			"CtrlFlag":"FL_MOVIE_DATEIMPRINT"
+		},
+		{
+			"CtrlName":"UIFlowWndMovie_HMS_Static",
+			"CtrlFlag":"FL_MOVIE_DATEIMPRINT",
+			"Format":"HH:mm:ss"
+		},
+		{
+			"CtrlName":"UIFlowWndMovieHome_YMD_Static",
+			"CtrlFlag":"FL_MOVIE_DATEIMPRINT"
+		},
+		{
+			"CtrlName":"UIFlowWndMovieHome_HMS_Static",
+			"CtrlFlag":"FL_MOVIE_DATEIMPRINT",
+			"Format":"HH:mm"
+		},
+		{
+			"CtrlName":"UIFlowWndMovieHome_Week_Status",
+			"CtrlFlag":"FL_MOVIE_DATEIMPRINT",
+			"Format":"w"
+		}
+	],
 	"MovieWind": {
 		"Show": "UIFlowWndMovie",
 		"Main": "UIFlowWndMovie",
-		"Brothers": ["UIFlowWndMovie", "UIFlowWndMovieHome"]
+		"Brothers": ["UIFlowWndMovie", "UIFlowWndMovieHome"],
+		"MsgBox":{
+			"BoxCtrl":"UIFlowWndMovie_WifiInfo_Panel",
+			"TriggerCode":"WifiOn",
+			"CloseType":"KEY|TIMER",
+			"CloseCode":"30Sec",
+			"Attach":"STRID_WIFI"
+		}
 	},
-	"MenuItemWind": {
-		"CenterControl": "MenuCommonItem_Menu",
-		"PageNumber": "MenuCommonItem_PageNum",
-		"DirInit": "MenuCommonItem_TipsIconLD",
-		"DirUp": "MenuCommonItem_TipsIconLUDR",
-		"DirDown": "MenuCommonItem_TipsIconLDR",
-		"DirLeft": "",
-		"DirRight": "",
-		"DirOK": "MenuCommonItem_TipsIconLUDOK",
-		"TitleIcon": ["MenuCommonItem_TitleIconTab1","MenuCommonItem_TitleIconTab2"],
+	"MenuItemWind":{
+		"CenterControl":"MenuCommonItem_Menu",
+		"PageNumber":"MenuCommonItem_PageNumCtrl",
 		"TitleText": "MenuCommonItem_TitleText"
 	},
-	"MenuOptionWind": {
-		"CenterControl": "MenuCommonItem_List_Option"
+	"MenuOptionWind":{
+		"CenterControl":"MenuCommonItem_List_Option"
+	},
+	"TimeLapseRecBitrate":{"1000MS":200,"500MS":200} ,
+	"MovieSizeMap":{
+		"ShowDebugMsg":false,
+		"SingleSize":[
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1200, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1200, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1200, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1280, "Height":720,  "FrameRate":30, "TargetBitrate":800, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":848,  "Height":480,  "FrameRate":30, "TargetBitrate":250, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":640,  "Height":480, "FrameRate":30, "TargetBitrate":200, "DispAspectRatio":"VIDENC_DAR_DEFAULT" }
+		],
+		"DualSize":[
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1050, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1050, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1920, "Height":1080, "FrameRate":30, "TargetBitrate":1050, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":1280, "Height":720,  "FrameRate":30, "TargetBitrate":800, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":848,  "Height":480,  "FrameRate":30, "TargetBitrate":250, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":640,  "Height":480, "FrameRate":30, "TargetBitrate":200, "DispAspectRatio":"VIDENC_DAR_DEFAULT" }
+		],
+		"BackSize":[
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":720, "Height":480, "FrameRate":30, "TargetBitrate":400, "DispAspectRatio":"VIDENC_DAR_DEFAULT" }
+		],
+		"WifiSize":[
+			{"Width":1280, "Height":720, "FrameRate":30, "TargetBitrate":540, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":848, "Height":480, "FrameRate":30, "TargetBitrate":240, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":640, "Height":480,  "FrameRate":30, "TargetBitrate":180, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":640,  "Height":480,  "FrameRate":30, "TargetBitrate":135, "DispAspectRatio":"VIDENC_DAR_DEFAULT" },
+			{"Width":320,  "Height":240, "FrameRate":30, "TargetBitrate":50, "DispAspectRatio":"VIDENC_DAR_DEFAULT" }
+		]
 	}
 }
