@@ -56,8 +56,8 @@
 			<UART2_VOICE   name="语音识别-ISD9160" value="2" />
 		</UART2_FUNC>
 		<DISPLAY_169HD_FUNC id="显示比例" IndexInfo="CFG_DISPLAY_169HD" >
-			<DEFAULT			   name="16:9" value="0" />
-			<DISPLAY_169HD_YES     name="4:3" value="1" />
+			<DEFAULT			   name="4:3" value="0" Remark="默认4:3"/>
+			<DISPLAY_169HD_YES     name="16:9" value="1" />
 		</DISPLAY_169HD_FUNC>
 		<ACC_STATUS id="ACC触发开机" IndexInfo="CFG_ACC_CHANNEL">
 			<DEFAULT 	name="默认" 	value="0" />
