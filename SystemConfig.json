@@ -1,0 +1,67 @@
+{
+	"TouchToolBar": {
+		"Movie": "UIFlowWndMovie_Tab_ToolBar",
+		"Photo": "UIFlowWndPhoto_Tab_ToolBar",
+		"Play": "UIFlowWndPlay_Tab_ToolBar"
+	},
+	"TouchPlane": {
+		"MaxWidth": 0,
+		"MinWidth": 0,
+		"MaxHeight": 0,
+		"MinHeight": 0,
+		"OffsetX": 0,
+		"OffsetY": 60,
+		"ShowWindWidth": 0,
+		"ShowWindHeight": 0
+	},
+	"FDB_Folder": {
+		"Root": "CARDV",
+		"Movie": "MOVIE",
+		"Photo": "PHOTO",
+		"RO": "LOCK"
+	},
+	"ReplaceCtrl": [{
+			"Src": "UIFlowWndMovie_Status_battery",
+			"Dest": "UIFlowWndMovieHome_Status_battery"
+		},
+		{
+			"Src": "UIFlowWndMovie_Static_Parking",
+			"Dest": "UIFlowWndMovieHome_Static_Parking"
+		},
+		{
+			"Src": "UIFlowWndMovie_Status_Wifi",
+			"Dest": "UIFlowWndMovieHome_Status_Wifi"
+		}
+	],
+	"CtrlEventFunc": [{
+			"Name": "MenuCommonItem_Menu",
+			"Event": "Click",
+			"Func": "MenuCommonItem_Menu_OnKeyEnter"
+		},
+		{
+			"Name": "MenuCommonItem_List_Option",
+			"Event": "Click",
+			"Func": "MenuCommonOption_Menu_OnKeyEnter"
+		}
+	],
+	"MovieWind": {
+		"Show": "UIFlowWndMovie",
+		"Main": "UIFlowWndMovie",
+		"Brothers": ["UIFlowWndMovie", "UIFlowWndMovieHome"]
+	},
+	"MenuItemWind": {
+		"CenterControl": "MenuCommonItem_Menu",
+		"PageNumber": "MenuCommonItem_PageNum",
+		"DirInit": "MenuCommonItem_TipsIconLD",
+		"DirUp": "MenuCommonItem_TipsIconLUDR",
+		"DirDown": "MenuCommonItem_TipsIconLDR",
+		"DirLeft": "",
+		"DirRight": "",
+		"DirOK": "MenuCommonItem_TipsIconLUDOK",
+		"TitleIcon": ["MenuCommonItem_TitleIconTab1","MenuCommonItem_TitleIconTab2"],
+		"TitleText": "MenuCommonItem_TitleText"
+	},
+	"MenuOptionWind": {
+		"CenterControl": "MenuCommonItem_List_Option"
+	}
+}
