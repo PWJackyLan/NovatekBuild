@@ -67,6 +67,7 @@
 			<ACC_PSW3_IO12 	name="PSW3+IO12" 	value="19586" Remark="PSW3+Bit_8+IO12"/>	
 			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
 			<ACC_PSW4_MC15 	name="PSW4+MC15" 	value="3907" Remark="Bit0_5(PSW4)+Bit_7(Dir)+Bit_6(USB)+Bit8_15(C_GPIO_15)"/>	
+			<ACC_PSW4_MC15 	name="PSW4+USB" 	value="43" Remark="Bit0_5(PSW4)+Bit_7(Dir)+Bit_6(USB)+Bit8_15(C_GPIO_15)"/>	
 		</ACC_STATUS>
 		<FORMAT id="初始格式化类型" IndexInfo="CFG_FORMAT_SD_CARD">
 			<DEFAULT    	name="默认" 		value="0" />
