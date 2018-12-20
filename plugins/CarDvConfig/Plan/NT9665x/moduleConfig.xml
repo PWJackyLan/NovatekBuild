@@ -47,6 +47,8 @@
 			<!--以下为自定义列表顺序   version="1.1"/--> 
 			<PHOTO_FUNC name="关屏"  value="16"/>
 			<PHOTO_FUNC name="Capture"  value="17"/>
+			<PHOTO_FUNC name="只开背光"  value="18"/>
+			<PHOTO_FUNC name="只关背光"  value="19"/>
 		</APP_PHOTO_FUNC>
 		<APP_PLAY_FUNC>
 			<PLAY_FUNC name="Default" value="0"/>
@@ -64,6 +66,8 @@
 			<PLAY_FUNC name="PlayBack" value="13"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
 			<PLAY_FUNC name="关屏"  value="14"/>
+			<PLAY_FUNC name="只开背光"  value="15"/>
+			<PLAY_FUNC name="只关背光"  value="16"/>
 		</APP_PLAY_FUNC>
 		<APP_BROWSER_FUNC>
 			<BROWSER_FUNC name="Default" value="0"/>
@@ -115,6 +119,8 @@
 			<MENU_FUNC name="UserKey"   value="23"/>
 			<MENU_FUNC name="停车监控"  value="24"/>
 			<MENU_FUNC name="屏幕保护"  value="25"/>
+			<MENU_FUNC name="只开背光"  value="26"/>
+			<MENU_FUNC name="只关背光"  value="27"/>
 		</APP_MENU_FUNC>
 	</APP_FUNCTION>		
 	<!---最多可以标记32个状态 MaxValue:0x80000000/-->
