@@ -26,6 +26,8 @@
 			<MOVIE_FUNC name="Wifi开关"  value="21"/>
 			<MOVIE_FUNC name="格式化"  value="22"/>
 			<MOVIE_FUNC name="长按格式化"  value="23"/>
+			<MOVIE_FUNC name="只关背光"  value="24"/>
+			<MOVIE_FUNC name="只开背光"  value="25"/>
 		</APP_MOVIE_FUNC>
 		<APP_PHOTO_FUNC>
 			<PHOTO_FUNC name="Default" value="0"/>
