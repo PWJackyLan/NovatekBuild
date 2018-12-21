@@ -68,6 +68,8 @@
 			<PLAY_FUNC name="关屏"  value="14"/>
 			<PLAY_FUNC name="只开背光"  value="15"/>
 			<PLAY_FUNC name="只关背光"  value="16"/>
+			<PLAY_FUNC name="快进"  value="17"/>
+			<PLAY_FUNC name="快退"  value="18"/>
 		</APP_PLAY_FUNC>
 		<APP_BROWSER_FUNC>
 			<BROWSER_FUNC name="Default" value="0"/>
