@@ -103,24 +103,10 @@
 			<MENU_FUNC name="Right" value="5"/>
 			<MENU_FUNC name="Menu" value="6"/>
 			<MENU_FUNC name="Mode" value="7"/>
+			<MENU_FUNC name="屏幕保护" value="8"/>
 			<!--以下为自定义列表顺序   version="1.1"/--> 
-			<MENU_FUNC name="镜头切换"  value="11"/>
-			<MENU_FUNC name="补光灯"    value="12"/>
-			<MENU_FUNC name="录音开关"  value="13"/>
-			<MENU_FUNC name="缩时录像"  value="14"/>
-			<MENU_FUNC name="格式化"   value="15"/>
-			<MENU_FUNC name="小视频"    value="16"/>
-			<MENU_FUNC name="Wifi开关"  value="17"/>
-			<MENU_FUNC name="快捷键6"   value="18"/>
-			<MENU_FUNC name="快捷键7"   value="19"/>
-			<MENU_FUNC name="快捷键8"   value="20"/>
-			<MENU_FUNC name="移动帧测"  value="21"/>
-			<MENU_FUNC name="恢复默认"  value="22"/>
-			<MENU_FUNC name="UserKey"   value="23"/>
-			<MENU_FUNC name="停车监控"  value="24"/>
-			<MENU_FUNC name="屏幕保护"  value="25"/>
-			<MENU_FUNC name="只开背光"  value="26"/>
-			<MENU_FUNC name="只关背光"  value="27"/>
+			<MENU_FUNC name="只开背光"  value="9"/>
+			<MENU_FUNC name="只关背光"  value="10"/>
 		</APP_MENU_FUNC>
 	</APP_FUNCTION>		
 	<!---最多可以标记32个状态 MaxValue:0x80000000/-->
