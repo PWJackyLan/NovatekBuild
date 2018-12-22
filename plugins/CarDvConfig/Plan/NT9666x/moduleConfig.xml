@@ -20,7 +20,7 @@
 			<MOVIE_FUNC name="补光灯"    value="36"/>
 			<MOVIE_FUNC name="录音开关"  value="37"/>
 			<MOVIE_FUNC name="缩时录像"  value="38"/>
-			<MOVIE_FUNC name="快捷键3"   value="39"/>			
+			<MOVIE_FUNC name="GPS星数DB值"   value="39"/>			
 			<MOVIE_FUNC name="小视频"    value="40"/>
 			<MOVIE_FUNC name="Wifi开关"  value="41"/>
 			<MOVIE_FUNC name="快捷键6"   value="42"/>
@@ -53,7 +53,7 @@
 			<PHOTO_FUNC name="补光灯"    value="24"/>
 			<PHOTO_FUNC name="录音开关"  value="25"/>
 			<PHOTO_FUNC name="缩时录像"  value="26"/>
-			<PHOTO_FUNC name="快捷键3"   value="27"/>			
+			<PHOTO_FUNC name="GPS星数DB值"   value="27"/>			
 			<PHOTO_FUNC name="小视频"    value="28"/>
 			<PHOTO_FUNC name="Wifi开关"  value="29"/>
 			<PHOTO_FUNC name="快捷键6"   value="30"/>
@@ -83,7 +83,7 @@
 			<PLAY_FUNC name="补光灯"    value="22"/>
 			<PLAY_FUNC name="录音开关"  value="23"/>
 			<PLAY_FUNC name="缩时录像"  value="24"/>
-			<PLAY_FUNC name="快捷键3"   value="25"/>			
+			<PLAY_FUNC name="GPS星数DB值"   value="25"/>			
 			<PLAY_FUNC name="小视频"    value="26"/>
 			<PLAY_FUNC name="Wifi开关"  value="27"/>
 			<PLAY_FUNC name="快捷键6"   value="28"/>
@@ -110,7 +110,7 @@
 			<BROWSER_FUNC name="补光灯"    value="12"/>
 			<BROWSER_FUNC name="录音开关"  value="13"/>
 			<BROWSER_FUNC name="缩时录像"  value="14"/>
-			<BROWSER_FUNC name="快捷键3"   value="15"/>			
+			<BROWSER_FUNC name="GPS星数DB值"   value="15"/>			
 			<BROWSER_FUNC name="小视频"    value="16"/>
 			<BROWSER_FUNC name="Wifi开关"  value="17"/>
 			<BROWSER_FUNC name="快捷键6"   value="18"/>
@@ -137,7 +137,7 @@
 			<MENU_FUNC name="补光灯"    value="12"/>
 			<MENU_FUNC name="录音开关"  value="13"/>
 			<MENU_FUNC name="缩时录像"  value="14"/>
-			<MENU_FUNC name="快捷键3"   value="15"/>			
+			<MENU_FUNC name="GPS星数DB值"   value="15"/>			
 			<MENU_FUNC name="小视频"    value="16"/>
 			<MENU_FUNC name="Wifi开关"  value="17"/>
 			<MENU_FUNC name="快捷键6"   value="18"/>
@@ -195,7 +195,7 @@
 			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
 	
 			<!---快捷按键/-->
-			<NVTEVT name="快捷键3" 		index="21" value="0x00100000"/>
+			<NVTEVT name="GPS星数DB值" 		index="21" value="0x00100000"/>
 			<NVTEVT name="小视屏" 		index="22" value="0x00200000"/>
 			<NVTEVT name="WIFI开关" 	index="23" value="0x00400000"/>
 			<NVTEVT name="快捷键6" 		index="24" value="0x00800000"/>
