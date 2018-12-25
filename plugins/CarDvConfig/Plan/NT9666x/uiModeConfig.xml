@@ -144,7 +144,7 @@
 			<ACC_PSW3 	name="PSW3" 	value="2" />
 			<ACC_PSW3_IO12 	name="PSW3+IO12" 	value="19586" Remark="PSW3+Bit_8+IO12"/>	
 			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
-			<ACC_PSW4_P15 	name="PSW4+P15" 	value="20007" Remark="PSW4+P31(C_GPIO_31)左移8位"/>	
+			<ACC_PSW4_P15 	name="PSW4+P15" 	value="20227" Remark="PSW4+P15(P_GPIO_15)左移8位"/>	
 			<ACC_PSW4 	name="PSW4" 	value="3" />
 		</ACC_STATUS>
 		<SOUND_SPK id="音频输出" IndexInfo="CFG_SOUND_SPK" >
