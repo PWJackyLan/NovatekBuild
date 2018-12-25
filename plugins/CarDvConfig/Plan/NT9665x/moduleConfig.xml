@@ -115,7 +115,6 @@
 	<!---可自行clone FUNC_SYSTEM_MODEL 为新的tab/-->
 	<CUSTOM_FUNCTRON_CTRL>
 		<FUNC_SYSTEM_MODEL node="系统模块">
-			<GPS_FUNC 	name="启用GPS功能" 		value="0x00000001" default="ENABLE" />
 			<HDMI_FUNC  name="启用HDMI功能"  	value="0x00000002" default="DISABLE" />
 			<TV_FUNC    name="启用TV功能"  		value="0x00000004" default="ENABLE" />
 			<ROTATE_BUF name="旋转显示缓存"		value="0x00000008" default="DISABLE" />
@@ -134,39 +133,39 @@
 			<NVTEVT name="左键" 		index="3" 	value="0x00000004"/>
 			<NVTEVT name="右键" 		index="4" 	value="0x00000008"/>
 						
-			<NVTEVT name="回车" 		index="5" 	value="0x00000010"/>
+			<!---NVTEVT name="回车" 		index="5" 	value="0x00000010"/-->
 			<NVTEVT name="菜单" 		index="6" 	value="0x00000020"/>
-			<NVTEVT name="删除" 		index="7" 	value="0x00000040"/>
+			<!---NVTEVT name="删除" 		index="7" 	value="0x00000040"/-->
 			<NVTEVT name="模式" 		index="8" 	value="0x00000080"/>
 			
 			<NVTEVT name="放大" 		index="9" 	value="0x00000100"/>
 			<NVTEVT name="缩小" 		index="10" 	value="0x00000200"/>
-			<NVTEVT name="SHUTTER1" 	index="11" 	value="0x00000400"/>
+			<!---NVTEVT name="SHUTTER1" 	index="11" 	value="0x00000400"/-->
 			<NVTEVT name="SHUTTER2" 	index="12" 	value="0x00000800"/>
 			
 			<NVTEVT name="回放模式" 	index="13" 	value="0x00001000"/>
-			<NVTEVT name="录像模式" 	index="14" 	value="0x00002000"/>
-			<NVTEVT name="拍照模式" 	index="15" 	value="0x00004000"/>
-			<NVTEVT name="前后摄像头" 	index="16" 	value="0x00008000"/>
+			<!---NVTEVT name="录像模式" 	index="14" 	value="0x00002000"/-->
+			<!---NVTEVT name="拍照模式" 	index="15" 	value="0x00004000"/-->
+			<NVTEVT name="镜头切换" 	index="16" 	value="0x00008000"/>
 
 			<NVTEVT name="加锁" 		index="17" 	value="0x00010000"/>
-			<NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/>
+			<!---NVTEVT name="红外控制" 	index="18" 	value="0x00020000"/-->
 			<NVTEVT name="静音" 		index="19" 	value="0x00040000"/>
 			<NVTEVT name="屏幕截图" 	index="20" 	value="0x00080000"/>
 
 			<!---快捷按键/-->
 			<NVTEVT name="格式化" 		index="21" value="0x00100000"/>
-			<NVTEVT name="小视屏" 		index="22" value="0x00200000"/>
+			<!---NVTEVT name="小视屏" 		index="22" value="0x00200000"/-->
 			<NVTEVT name="WIFI开关" 	index="23" value="0x00400000"/>
-			<NVTEVT name="长按格式化" 	index="24" value="0x00800000"/>
+			<!---NVTEVT name="长按格式化" 	index="24" value="0x00800000"/-->
 			
-			<NVTEVT name="快捷键7" 		index="25" value="0x01000000" Remark=""/>
-			<NVTEVT name="快捷键8" 		index="26" value="0x02000000" Remark=""/>
-			<NVTEVT name="移动帧测" 	index="27" value="0x04000000"/>
-			<NVTEVT name="恢复默认" 	index="28" value="0x08000000"/>
+			<!---NVTEVT name="快捷键7" 		index="25" value="0x01000000" Remark=""/-->
+			<!---NVTEVT name="快捷键8" 		index="26" value="0x02000000" Remark=""/-->
+			<!---NVTEVT name="移动帧测" 	index="27" value="0x04000000"/-->
+			<!---NVTEVT name="恢复默认" 	index="28" value="0x08000000"/-->
 			
-			<NVTEVT name="UserKey" 		index="29" value="0x10000000"/>
-			<NVTEVT name="停车" 		index="30" value="0X20000000"/>
+			<!---NVTEVT name="UserKey" 		index="29" value="0x10000000"/-->
+			<!---NVTEVT name="停车" 		index="30" value="0x20000000"/-->
 			<NVTEVT name="关屏" 		index="31" value="0x40000000"/>
 			<NVTEVT name="关机" 		index="32" value="0x80000000"/>
 		</NVTEVT>
