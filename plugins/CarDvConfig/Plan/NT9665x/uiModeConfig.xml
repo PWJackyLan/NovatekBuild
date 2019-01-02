@@ -50,6 +50,11 @@
 			<DELAY_30S name="30秒" value="30" />
 			<DELAY_60S name="1分钟" value="60" />
 		</DELAY_POWEROFF >
+		<UART1_FUNC id="串口1功能" IndexInfo="CFG_UART1_FUNCTION" >
+			<DEFAULT    name="Debug" value="0" />
+			<UART1_GPS     name="GPS" value="1" />
+			<UART1_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART1_FUNC>
 		<UART2_FUNC id="串口2功能" IndexInfo="CFG_UART2_FUNCTION" >
 			<DEFAULT    name="禁用" value="0" />
 			<UART2_GPS     name="GPS" value="1" />
