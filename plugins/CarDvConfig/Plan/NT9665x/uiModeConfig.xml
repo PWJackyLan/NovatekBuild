@@ -50,6 +50,11 @@
 			<DELAY_30S name="30秒" value="30" />
 			<DELAY_60S name="1分钟" value="60" />
 		</DELAY_POWEROFF >
+		<UART1_FUNC id="串口1功能" IndexInfo="CFG_UART1_FUNCTION" >
+			<DEFAULT    name="Debug" value="0" />
+			<UART1_GPS     name="GPS" value="1" />
+			<UART1_VOICE   name="语音识别-ISD9160" value="2" />
+		</UART1_FUNC>
 		<UART2_FUNC id="串口2功能" IndexInfo="CFG_UART2_FUNCTION" >
 			<DEFAULT    name="禁用" value="0" />
 			<UART2_GPS     name="GPS" value="1" />
@@ -68,6 +73,7 @@
 			<ACC_PSW4_MC31 	name="PSW4+MC31" 	value="7939" Remark="PSW4+MC31(C_GPIO_31)左移8位"/>	
 			<ACC_PSW4_MC15 	name="PSW4+MC15" 	value="3907" Remark="Bit0_5(PSW4)+Bit_7(Dir)+Bit_6(USB)+Bit8_15(C_GPIO_15)"/>	
 			<ACC_PSW4_MC15 	name="PSW4+USB" 	value="67" Remark="Bit0_5(PSW4)+Bit_6(USB)"/>	
+			<ACC_PSW4_IO12 	name="PSW4+IO47+USB" 	value="28483" Remark="PSW4+IO47+Bit_6"/>	
 		</ACC_STATUS>
 		<FORMAT id="初始格式化类型" IndexInfo="CFG_FORMAT_SD_CARD">
 			<DEFAULT    	name="默认" 		value="0" />
