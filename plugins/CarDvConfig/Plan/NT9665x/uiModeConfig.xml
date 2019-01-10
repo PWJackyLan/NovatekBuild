@@ -2,6 +2,11 @@
 <!--Software_version  version="1.1"/--> 
 <LIBRARY>
 	<Setup>
+		<SPECIALBOARD id="特殊版型" IndexInfo="CFG_SPECIALBOARD" >
+			<DEFAULT 	    name="通用型" value="0" />
+			<BOARD_G405	    name="大智G405" value="1" />
+			<BOARD_G405	    name="大智DT01" value="2" />
+		</SPECIALBOARD>
 		<ROTATE_DEGREE id="显示旋转度" IndexInfo="CFG_ROTATE_DEGREE" >
 			<ROTATE_0 		name="0度" 		value="0"  Remark="No rotation"/>
 			<ROTATE_90 		name="90度" 	value="1" Remark="rotate 90 degree"/>
