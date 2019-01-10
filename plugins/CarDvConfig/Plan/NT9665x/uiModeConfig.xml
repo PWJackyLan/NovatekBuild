@@ -64,6 +64,7 @@
 			<DEFAULT    name="禁用" value="0" />
 			<UART2_GPS     name="GPS" value="1" />
 			<UART2_VOICE   name="语音识别-ISD9160" value="2" />
+			<UART2_DAZA_MCU   name="DAZA-MCU" value="3" />
 		</UART2_FUNC>
 		<DISPLAY_169HD_FUNC id="显示比例" IndexInfo="CFG_DISPLAY_169HD" >
 			<DEFAULT			   name="4:3" value="0" Remark="默认4:3"/>
