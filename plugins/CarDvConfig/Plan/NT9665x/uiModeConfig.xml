@@ -121,5 +121,10 @@
 			<AUDIO_STEREO	name="STEREO"   value="3" Remark="立体声"/>
 			<AUDIO_MONO		name="MONO"     value="4" Remark="虚拟双通道"/>
 		</MOVIE_FLIE_TYPE>
+		<SD_CARD_SPEED id="SD卡速限制" IndexInfo ="CFG_SD_CARD_SPEED">
+			<SD_CARD_4_CLASEE  name="4_CLASS" value="4" Remark="4速以及4速以上的可以使用"/>
+			<SD_CARD_6_CLASEE  name="6_CLASS" value="6" Remark="6速以及6速以上的可以使用"/>
+			<SD_CARD_10_CLASEE  name="10_CLASS" value="10" Remark="10速以及10速以上的可以使用"/>
+		</SD_CARD_SPEED>
 	</Setup>	
 </LIBRARY>
